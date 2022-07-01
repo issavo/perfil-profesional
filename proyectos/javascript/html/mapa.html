@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mapaCanvas{
+            width: 800px;
+            height: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid brown;
+        }
+    </style>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFmUxwQchuIoFBbWNIjBEu5q8gvcck5gw"></script>
+</head>
+<body>
+    <div id="mapa" class="mapaCanvas"></div>
+    <!-- <div id="mapa2" class="mapaCanvas"></div> -->
+    <input id="miUbicacion" type="button" value="Mi ubicacion">
+    <input id="calRuta" type="button" value="Ruta">
+    <script>
+// funcion para crear el mapa
+function drawMap(LatLng){
+//creamos el punto de coordenadas
+    var punto = new google.maps.LatLng(
+        39.470038,
+        - 0.377209
+        );
+//creamos las opciones del mapa
+    var opciones = {
+        zoom: 17,
+        center: punto,
+        //mapTypeId: google.maps.mapTypeId.HYBRID,
+        scaleControl: true
+    };
+//creamos el mapa
+    var m = new google.maps.Map(document.getElementById("mapa"), opciones);
+
+//creamos una marca
+    var marcador = new google.maps.Marker({
+        position: punto,
+        map: m,
+        title: "Pages",
+    });
+
+//creamos un popup
+    var ventana = new google.maps.InfoWindow({
+        content: 'Empresa: <b>Pages</b><br/>Desarrollo de páginas webs<br/>c/La Marina,33<br/> '
+    });
+//asociamos un evento al objeto google.maps
+    google.maps.event.addListener(marcador, 'click', function(){
+        ventana.open(m,marcador);
+    });
+}
+
+//geolocalizador
+
+function geo(){
+    var geocoder = new google.maps.Geocoder();
+    var ubicacion = $('#miUbicacion').val(punto);
+    geocoder.geocode({'address': ubicacion}, function(results,status){
+        if (status === 'ok'){
+            m.setCenter(results[0].geometry.location);
+            var marker = new google.maps.Marker({
+                map: m,
+                position: results[0].geometry.location
+            });
+        } else {
+            alert('No se ha encontrado esa localización: ' + status);
+        }
+    }); 
+}
+
+
+
+
+
+
+
+window.onload = drawMap();
+document.getElementById('#miubicacion').addEventListener('click', geo, false);
+
+    </script>
+</body>
+</html>

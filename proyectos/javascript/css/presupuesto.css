@@ -1,0 +1,447 @@
+@font-face 
+{
+    font-family: 'Montserrat';
+    src: url(./docs/montserrat_[allfont.es].eot);
+}
+
+
+html, 
+body
+{
+    background-image: url(../img/body_web_1900x600.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: repeat-x; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat'; 
+    background-color: #f3e2c7;
+    overflow-x: hidden;
+    /* height: 100%; */
+
+    
+}
+span
+{
+    font-family: 'Montserrat';
+}
+
+
+
+/************ contenedor principal  *********************************/
+#contenedor_form_presupuesto
+{
+    overflow: hidden; 
+    /* border: 3px solid brown; */
+    width: 98%;
+    min-width: 800px;
+    margin-top: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    position: relative;
+    z-index: 1;/* evitar superponer al menu, cuando carga la seccion en el index*/
+    
+}
+
+#contenedor_form_presupuesto h1
+{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 33px;
+    font-weight: bolder;
+    letter-spacing: .5px;
+    text-shadow:  rgba(173, 194, 197, .6) 2px 2px 3px;
+    margin-top: 60px;
+    margin-bottom: 40px; 
+}
+
+/********************* contenido formulario **********************/
+#formularioPresupuesto
+{
+    font-family: 'Montserrat';
+    border: 2px solid rgb(175, 140, 59);
+    background-image: url(../img/fondo_mano_1000x300.png);
+    background-position: top;
+    background-repeat: no-repeat; 
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 98%; 
+    height: auto;
+    position: relative;
+}
+
+
+/******************************* datos personales **********************/
+#datos_personales
+{
+    /* border: 3px solid brown; */
+    font-family: 'Montserrat';
+    width: 50%;
+    margin: 190px 0 0 0;
+    float: left;
+    
+}
+
+#datos_personales th
+{
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+/* #datos_personales tr
+{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    display: block;
+} */
+
+tr#titulo_text
+{
+    float: left;
+    vertical-align: top;
+    font-size: 22px;
+    width: 80%;
+    margin-top: 0;
+    padding-bottom: 10px;
+    text-align: right;
+    /* border: 1px solid navy; */
+    
+}
+
+#datos_personales td
+{
+    width: 45%;
+    float: left;
+    vertical-align: top;
+    padding: 10px;
+    margin: 5px 10px 5px 20px;  
+
+}
+
+#datos_personales td input
+{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    border-radius: 3px;
+    padding: 16px 8px;
+    width: 80%;
+    border: none;
+    background-color: rgba(208, 211, 212);
+    transition: .3s ease all;
+}
+
+#datos_personales td input:focus
+{
+     /* border: 3px solid rgb(175, 140, 59); */
+    outline: none;
+    background-color: #ebe8e4;
+    /* box-shadow: 10px 50px 100px rgba(243, 218, 218, 0); */
+    
+}
+
+/*********************** apartado  web *****************/
+
+/* No heredar estilos la tabla */
+table,
+th,
+tr,
+td
+{
+    padding: inherit;
+    margin: inherit;
+    /* border-collapse: collapse; */
+    /* display: inline-block; */
+} 
+
+/* table
+{
+    width: 522px;
+    height: 121px;
+} */
+
+td  label
+{
+    margin-left: 0 !important;
+    padding-left: 0;
+}
+
+/* SECCION APARTADO WEB */
+
+#apartado_web
+{
+    /* border: 3px solid brown; */
+    font-family: 'Montserrat';
+    width: 50%;
+    margin: 190px 5px 30px auto;
+    /* padding: 20px 0; */
+
+}
+
+/* thead */
+#apartado_web  th
+{
+
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin: 5px 0 15px 0;
+    padding: 1px 0px 25px 0px;
+}
+
+
+/* tbody */
+
+#apartado_web td
+{
+    font-size: 16px;
+    padding: 5px 1px;
+}
+/* select */
+
+#apartado_web > tbody > tr:nth-child(1) > td:nth-child(4) > select
+{
+    width: 129px;
+    background-color: #faf9f8; 
+}
+#apartado_web > tbody > tr:nth-child(1) > td:nth-child(2) > select
+{
+    background-color: #faf9f8; 
+}
+
+/* checkbox */
+
+#apartado_web > tbody > tr:nth-child(2) > td
+{
+    font-weight: 600;
+}
+
+#apartado_web input[type="checkbox"]
+{
+    font-weight: normal !important;
+}
+
+
+/*********************** apartado presupuesto estimado*****************/
+/* contenedor de los dos apartados */
+fieldset
+{
+    display: inline-flex;
+    width: 100%;
+    border: none;
+    
+}
+#presupuesto_estimado
+{
+    /* border: 3px solid brown; */
+    font-family: 'Montserrat' !important;
+    width: 100%;
+    /* margin: 0 10px 0 0; */
+    /* padding: 0; */
+}
+
+#content_presupuesto_estimado
+{
+    width: 50%;
+    padding-bottom: 15px;
+    /* border: 1px solid green; */
+    /* float: right; */
+}
+
+#content_presupuesto_estimado h4
+{
+    width: 210px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    padding-left: 0;
+    margin-left: 0px;
+    margin-top: 0;
+    margin-bottom: 0;    
+}
+
+
+#presupuesto
+{
+    /* border: 1px solid greenyellow; */
+    font-family: 'Montserrat';
+    font-weight: bold;
+    padding: 10px 6px;
+    /* width: 50%; */
+    border: none;
+    margin: 5px 15px 15px 300px;
+    background-color: rgb(208, 211, 212);
+    transition: .3s ease all;
+}
+
+#content_presupuesto_estimado label
+{
+    font-size: 12px;
+    padding: 15px 15px 18px 18px;
+    margin-left: 250px;
+    width: 100px;
+
+}
+
+/* OBSERVACIONES */
+
+#content_observaciones
+{
+    /* border: 1px solid blue; */
+    /* margin-right: 700px; */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#titulo
+{
+    width: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 10px 10px 0px;
+}
+
+
+#observaciones
+{
+    border:1px solid black;
+    font-family: 'Montserrat';
+    font-weight: normal !important;
+    border-radius: 3px;
+    padding: 10px 4px;
+    width: 70%;
+    border: none;
+    margin: 5px 15px 10px 80px;
+    background-color: rgb(208, 211, 212);
+    transition: .3s ease all;
+} 
+#observaciones:focus
+{
+    background-color: #ebe8e4;
+    outline: none;
+}
+
+/* texto esquina izquierda-inferior */
+
+#presupuesto_estimado #nota
+{
+    font-size: 10px;
+    width: 35%;
+    margin: 10px 5px;
+    font-weight: bold !important;
+    padding-bottom: 0;
+    
+}
+
+/********* BOTONES **************/
+
+#presupuesto_estimado_botones
+{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-align: center;   
+}
+
+#presupuesto_estimado_botones input
+{
+    border-radius: 3px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+    width: 200px;
+    padding: 5px 17px;
+    /* color: rgb(195,151,51); */
+    background: rgb(208, 211, 212);
+    border: 1px solid black;
+    /* border: 2px solid rgb(195,151,51); */
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+#presupuesto_estimado_botones input:focus
+{
+    border: 3px solid rgb(136, 69, 3) !important;
+    outline: none !important;
+    color:  rgb(136, 69, 3);
+    background: whitesmoke;
+    box-shadow: 5px 3px 30px  rgba(241, 197, 153, .4) !important;
+    transition: ease .3s;
+}
+#presupuesto_estimado_botones input:hover
+{
+    font-size: 17px;
+    color:  rgb(136, 69, 3);
+    background: whitesmoke;
+    width: 198px;
+    transition: all .3s ease-in-out;
+}
+
+/* estilos validacion formulario */
+.ok
+{
+    /* border: 3px solid green ; */
+    text-shadow: rgb(157, 238, 157) 2px 2px 3px;
+    box-shadow: rgb(157, 238, 157)4px 4px 7px;
+    color: green; 
+   
+
+}
+.error
+{
+    /* border: 1px solid brown; */
+    text-shadow: rgb(235, 167, 167) 2px 2px 3px;
+   
+}
+
+.inputError
+{
+   box-shadow: rgb(247, 166, 166) 4px 4px 6px;
+   text-shadow: rgb(235, 167, 167) 2px 2px 3px; 
+   /* border: 1px solid brown !important; */
+
+}
+
+#mensajeDatosPer,
+.mensaje1, 
+#mensajePresupuesto,
+#mensajePestimado
+{
+    color: brown !important;
+    width: 500px;
+    font-weight: bolder;
+    font-size: 15px !important;
+    text-align: center !important;
+    margin-left: 10px;
+  
+}
+
+#mensajeDatosWeb
+{
+    
+    color: brown !important;
+    font-weight: bolder;
+    font-size: 15px !important;
+    text-align: center !important;
+    margin-left: 10px;
+    box-shadow: none;
+}
+
+#mensajePresupuesto 
+{
+    width: 90%;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+
+

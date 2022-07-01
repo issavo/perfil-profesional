@@ -1,0 +1,37 @@
+/***************************************** Footer Styles************************************/
+.content_footer{ 
+   background-color: black;
+   padding: 2.5rem;
+   text-align: center;
+   color: white;
+}
+.content_footer__item {
+    /* outline: 1px solid blue;  */
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+/* .content_footer__item::before {
+    content: "";
+    /* outline: 1px solid black;  */
+   /* width: 100%;
+    padding: 3.5% 0;
+    margin: 0;
+    position: absolute;
+   
+
+} */
+.content_footer__txt {
+    position: relative;
+    color:#004d99;
+    line-height: 0;
+    /* left: 5%; */
+    letter-spacing: 0.1em;
+    font-weight: bolder;
+    font-size: 1em;
+    padding: 1em;
+    text-align: center;
+}
+label {
+    padding-left: 1em;
+}

@@ -1,0 +1,134 @@
+@font-face 
+{
+    font-family: 'Montserrat';
+    src: url(./docs/montserrat_[allfont.es].eot);
+}
+/******************************************** RESET ************************/
+html, body, div, h1, h2, h3, h4, h5, h6
+{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+html, body
+{
+    background-image: url(../img/body_web_1900x600.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: repeat-x; 
+    line-height: 1;
+    font-family: 'Montserrat';
+} /* termina reset*/
+
+/*************************** UBICACION *******************/
+#ubicacion
+{
+    min-width: 800px;
+    margin-top: 50px;
+    z-index: 1; /* evitar superponer al menu, cuando carga la seccion en el index*/
+    /* background-color: #f3e2c7; */
+}
+
+#ubicacion h1 
+{
+    text-align: center;
+    font-family: 'Montserrat' !important;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: .5px;
+    text-shadow:  rgba(173, 194, 197, .6) 2px 2px 3px;
+}
+
+#mapa 
+{
+    border: 3px solid rgb(195,151,51);
+    /* background-color: #f3e2c7; */
+	height:500px;
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#mapa2
+{
+    width:900px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    /* box-shadow: rgb(195,151,51) 4px 4px 5px; */
+
+}
+#ubicacion h3
+{
+    font-weight: bolder;
+    /* color: #004d99; */
+    margin-top: 40px;
+    /* margin-left: 50px; */
+    text-align: center;
+    text-shadow:  rgba(173, 194, 197, .6) 2px 2px 3px;
+}
+
+#ubicacion
+{
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    /* background-color: #f3e2c7; */
+    padding: 7px;
+    position: relative;
+}
+
+
+
+#calRuta, 
+#miUbicacion 
+{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 30px; */
+    padding: 5px 10px;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    color: rgba(102,51,0,1);
+    background: rgba(193,158,103,1);
+    border: 2px solid rgb(195,151,51);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    
+}
+
+#calRuta:focus, 
+#miUbicacion:focus
+{
+    background: rgba(102,51,0,1);
+    color: white;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+#calRuta:hover, 
+#miUbicacion:hover
+{
+    background: rgba(102,51,0,1);
+    color: white;
+    cursor: pointer;
+    letter-spacing: normal;
+    transition: all 0.5s ease-in-out;
+}
+
+.mapa_fijo
+{
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+}

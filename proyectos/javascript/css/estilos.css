@@ -1,0 +1,63 @@
+
+html, 
+body
+{
+    background-image: url(../img/body_web_1900x600.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: repeat-x;
+     /* background-color: #f3e2c7 !important; */ 
+    margin: 0;
+    padding: 0;
+    height: auto;
+
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+p
+{
+    font-family: Helvetica;
+    font-weight: bolder;
+}
+h2, 
+h4
+{
+    font-family: 'Montserrat';
+    text-size-adjust:auto ;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/*redondear esquinas
+input[type=text],input[type=email],input[type=number],input[type=submit],input[type=reset] {
+    border-radius: 15px;
+}*/
+input[type=submit]:hover
+{
+    cursor: pointer;
+}
+input[type=reset]:hover
+{
+    cursor: pointer;
+}
+
+/** SECCIONES **/
+.secciones
+{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+#ubicacion
+{
+    margin-bottom: 0px;
+}

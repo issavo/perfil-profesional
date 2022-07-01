@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="pagina de practicas">
+    <meta content="robots" content="nofollow">
+    <meta content="keywords" content="demo, practica, web, prueba">
+    <meta name="revist-after" content="2 days">
+    <meta name="category" content="practicas">
+    <link rel="shortcut icon" href="../imgs/favico_cometa_kitesur_30x30.png" type="image/x-icon">
+    <link rel="canonical" href="">
+    <meta name="author" content="Sonia O">
+    <title>formulario de registro</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/formulario_registro2.css">
+    <link rel="stylesheet" href="../css/pie_pagina.css">
+    <script src="../js/jquery-3.5.1.js"></script>
+    <script>
+    /*** menu deslizante ******/
+         $(document).ready(function () {
+                $("#barra").hide();
+                $("#menu_boton").mouseover(function () {
+                    //Se desliza de arriba a abajo con .slideToggle(mmsg)
+                    $("#barra").fadeToggle(500);
+
+                });//termina mouseover
+
+            }); //termina ready
+    </script>   
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="encabezado__item">
+            <a href="index.html"> <img id="logo" src="../imgs/cometa_kitesurf.png"  alt="logo"></a>
+            <p class="encabezado__txt">Somoskitesurf</p>
+
+    <!-- MENÚ NAVEGACIÓN -->
+            <nav class="">
+                <div class="menu_navegacion">
+                    <ul id="lista" class="lista_enlaces">
+                        <li><a id="link_inicio" class="menu_navegacion" href="../index.html">Inicio</a></li>
+                        <li><a id="link_noticias" class="menu_navegacion" href="noticias.html">Noticias</a></li>
+                        <li><a id="link_enlaces" class="menu_navegacion" href="enlaces.html">Enlaces</a></li>
+                        <li><a id="link_fotos" class="menu_navegacion" href="galeria_fotos.html">Galería</a></li>
+                        <li><a id="link_contacto"  class="menu_navegacion" href="contacto.html">Contacto</a></li>
+                        <li><a id="link_registro" class="menu_navegacion" href="formulario_registro2.html">Registro</a>
+                        </li>
+                        <li> <a id="volver" href="../../index.html" style="color: white;">Volver</a> </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form action="" class="formulario" id="formulario">
+            <!-- Grupo: Usuario -->
+            <div class="formulario__grupo" id="grupo__usuario">
+                <label for="usuario" class="formulario__label">Usuario</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="example123">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y sólo puede contener
+                    números, letras y guion bajo.</p>
+            </div>
+
+            <!-- Grupo: Nombre -->
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label for="nombre" class="formulario__label">Nombre</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Nombre  completo">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">El nombre tiene que ser de 4 a 16 dígitos y sólo puede contener
+                    números, letras y guion bajo.</p>
+            </div>
+
+            <!-- Grupo: Contraseña -->
+            <div class="formulario__grupo" id="grupo__password">
+                <label for="password" class="formulario__label">Contraseña</label>
+                <div class="formulario__grupo-input">
+                    <input type="password" class="formulario__input" name="password" id="password" placeholder="abcd1234">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos.</p>
+            </div>
+
+            <!-- Grupo: Contraseña 2 -->
+            <div class="formulario__grupo" id="grupo__password2">
+                <label for="password2" class="formulario__label">Repetir Contraseña</label>
+                <div class="formulario__grupo-input">
+                    <input type="password" class="formulario__input" name="password2" id="password2" placeholder="abcd1234">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">Ambas contraseñas deben ser iguales.</p>
+            </div>
+
+            <!-- Grupo: Correo Electronico -->
+            <div class="formulario__grupo" id="grupo__correo">
+                <label for="correo" class="formulario__label">Correo electrónico</label>
+                <div class="formulario__grupo-input">
+                    <input type="email" class="formulario__input" name="correo" id="correo"
+                        placeholder="example@correo.com">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">El correo sólo puede contener letras, números, puntos, guiones y
+                    guion bajo.</p>
+            </div>
+
+            <!-- Grupo: Teléfono -->
+            <div class="formulario__grupo" id="grupo__telefono">
+                <label for="telefono" class="formulario__label">Teléfono</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="4491234567">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">El teléfono sólo puede contener números, y el máximo son 14 dígitos.
+                </p>
+            </div>
+
+            <!-- Grupo: Terminos y Condiciones -->
+            <div class="formulario__grupo" id="grupo__terminos">
+                <label class="formulario__label">
+                    <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                    Acepto los términos y condiciones
+                </label>
+            </div>
+
+            <div class="formulario__mensaje" id="formulario__mensaje">
+                <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellene el formulario.
+                    correctamente. </p>
+            </div>
+
+            <div class="formulario__grupo formulario__grupo-btn-enviar">
+                <button type="submit" class="formulario__btn">Enviar</button>
+                <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado correctamente!</p>
+            </div>
+        </form>
+    </main>
+    <!------------------------------ Contenido del pie de pagina ------------------------------------------->
+    
+    <footer class="pie__contenedor">
+        <div class="pie__contenedor__item">
+            <p class="pie__contenedor__txt">
+                somoskitesurf.com
+                <label>&copy; copyright 2020 - <a href="">Pages</a></label>
+                <label> email: somoskitesurf@somoskitesurf.com</label>
+            </p>
+        </div>
+    </footer>
+<!-- SCRIPTS -->
+    <script src="../js/validacion_registro.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

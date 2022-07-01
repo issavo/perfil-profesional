@@ -1,0 +1,44 @@
+
+.header {
+    background-color: #678420;
+    /* height: 15%; */
+    top: -1%;
+    padding: 1%;
+    width: 100%;
+   
+    
+}
+  
+.header_item > a > img {
+    position: relative;
+    width: 250px;
+    top: 0px;
+    left: 100px;
+    padding-bottom: 10px;
+}
+
+.header_item_title {
+    width: 20%;
+    display: inline-block;
+    margin-right: 35%;
+    margin-left: auto;
+    margin-top: 15px;  
+}
+
+.header_item_title > h1 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    width: 500px;
+    text-align: center;
+    text-shadow: #bcc862 .2px .5px 1px;
+    padding-bottom: 0.5%;
+    margin: auto;
+   
+}
+
+
+
+
+
+
+

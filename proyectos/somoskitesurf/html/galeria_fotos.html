@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="pagina de practicas">
+    <meta content="robots" content="nofollow">
+    <meta content="keywords" content="demo, practica, web, prueba">
+    <meta name="revist-after" content="2 days">
+    <meta name="category" content="practicas">
+    <link rel="shortcut icon" href="../imgs/favico_cometa_kitesur_30x30.png" type="image/x-icon">
+    <link rel="canonical" href="">
+    <meta name="author" content="Sonia O">
+    <title>PHP - Somoskitesurf - v3 - galeria</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/galeria_fotos.css">
+    <link rel="stylesheet" href="../css/carrusell.css"> 
+    <link rel="stylesheet" href="../css/pie_pagina.css"> 
+     <!-- SCRIPTS -->
+    <script src="../js/carrusell.js"></script>
+    <script src="../js/jquery-3.5.1.js"></script>
+    <script src="../js/jquery.easing.1.3.js"></script>  
+    <script>
+        $(document).ready(function(){
+           
+                $("#menu").hover(//apuntamos al div menu
+                    function () {
+                        //$(this).stop().animate( -> el metodo () stop evita que se ejecuten mouseover consecutivos
+                        $(this).stop().animate({
+                            left: "0"
+                        }, 800, "easeInSine");//termina animate
+                    },
+                    function () {
+                        /* $(this).stop().animate({
+                            left: "-92px"
+                        }, 1500, "easeOutBounce"); efecto rebote*/
+                        $(this).stop().animate({
+                            left: "-140px"
+                        }, 600, "easeOutSine");//termina animate
+                    }
+                );//termina hover
+        }); //termina ready
+    </script>  
+</head>
+<body >
+     <header class="encabezado">
+        <div class="encabezado__item">
+            <a href="index.html"> <img id="logo" src="../imgs/cometa_kitesurf.png"  alt="logo"></a>
+            <p class="encabezado__txt">Somoskitesurf</p>
+
+    <!-- MENÚ NAVEGACIÓN -->
+            <nav class="">
+                <div class="menu_navegacion">
+                    <ul id="lista" class="lista_enlaces">
+                        <li><a id="link_inicio" class="menu_navegacion" href="../index.html">Inicio</a></li>
+                        <li><a id="link_noticias"  class="menu_navegacion" href="noticias.html">Noticias</a></li>
+                        <li><a id="link_enlaces"  class="menu_navegacion" href="enlaces.html">Enlaces</a></li>
+                        <li><a id="link_fotos"  class="menu_navegacion" href="galeria_fotos.html">Galería</a></li>
+                        <li><a id="link_contacto"  class="menu_navegacion" href="contacto.html">Contacto</a></li>
+                        <li><a id="link_registro"  class="menu_navegacion" href="formulario_registro2.html">Registro</a></li>
+                        <li> <a href="../../index.html" style="color: white;">Volver</a> </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="contenedor_main">
+        <div class="contenedor__galeria">
+            
+           <!-- CARRUSELL -->
+            <!-- Las imagenes se van desplazando de lugar -->
+            <div id="cuerpo">
+                <!-- Se aplican dos clases diferentes en un mismo elemento -->
+                <img onclick="moverIzq();" src="../imgs/flecha_izq_500x500.png" alt="flecha izquierda" class="desplazar">
+                <!-- evento que llama a la funcion para realizar una accion. El evento debe ser igual que la funcion a la que llama -->
+                <!-- Añadimos id para que el script diferiencie las imagenes -->
+                <img class="fotos op50" id="img1" src="../imgs/kite/salto-360.jpg" alt=""/>
+                <img class="fotos op75" id="img2" src="../imgs/kite/extreme_1280.jpg" alt=""/>
+                <img class="fotos" id="img3" src="../imgs/kite/extreme2_1280.jpg" alt=""/>
+                <img class="fotos" id="img3" src="../imgs/kite/extreme3_1280.jpg" alt=""/>
+                <img class="fotos op75" id="img4" src="../imgs/kite/kitesurfer_1280.jpg" alt=""/>
+                <img class="fotos op75" id="img5" src="../imgs/kite/kitesurfing2_1280.jpg" alt=""/>
+                <!-- <img class="fotos op50" id="img6" src="../imgs/kite/kite-surfing-salto1.jpg" alt=""/> -->
+    
+                <img onclick="moverDer();" src="../imgs/flecha_drch_500x500.png" alt="flecha derecha" class="desplazar">
+            </div>
+        </div>
+    </main>
+    <!-- CONTENEDOR IMÁGENES -->
+    <div id="content__galeria__img">
+        <div class="objGaleria">
+            <img src="../imgs/kite/kitesurf_atardecer.jpg" width="500" height="300" alt="">
+        </div>
+        <div class="objGaleria">
+            <img src="../imgs/kite/andando-atardecer.jpg" width="500" height="300" alt="">
+        </div>
+        <div class="objGaleria">
+            <img src="../imgs/kite/cometa-atardecer.jpg" width="500" height="300" alt="">
+        </div>
+        <div class="objGaleria">
+            <img src="../imgs/kite/sobre_ola.JPG" width="500" height="300" alt="">
+        </div>
+        <div class="objGaleria">
+            <img src="../imgs/kite/haciendo_kitesurf.jpg" width="500" height="300" alt="">
+        </div>
+        <div class="objGaleria">
+            <img src="../imgs/kite/cometas_fondo_volando.jpg" width="500" height="300" alt="">
+        </div>
+        <div class="objGaleria">
+            <img src="../imgs/kite/beach_cometas_1920.jpg" width="500" height="300" alt="">
+        </div>
+        <div class="objGaleria">
+            <img src="../imgs/kite/kiting_1280.jpg" width="500" height="300" alt="">
+        </div>
+    </div>
+  
+    <!-- PIE PÁGINA -->
+    <footer class="pie__contenedor">
+        <div class="pie__contenedor__item">
+            <p class="pie__contenedor__txt">
+                somoskitesurf.com
+                <label>&copy; copyright 2020 - <a href="">Pages</a></label>
+                <label> email: somoskitesurf@somoskitesurf.com</label>
+            </p>
+        </div>
+    </footer>
+</body>

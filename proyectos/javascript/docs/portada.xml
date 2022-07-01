@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title><![CDATA[Portada de EL PAÍS]]></title>
+  <link><![CDATA[https://elpais.com/rss/elpais/portada.xml]]></link>
+  <description><![CDATA[Portada de EL PAÍS]]></description>
+  <lastBuildDate>Thu, 30 Jul 2020 12:03:00 +0200</lastBuildDate>
+  <pubDate>Thu, 30 Jul 2020 12:03:00 +0200</pubDate>
+  <language>es</language>
+  <copyright><![CDATA[Copyright 2020, Ediciones EL PAÍS]]></copyright>
+  <ttl>5</ttl>
+  <image>
+      <url>https://ep00.epimg.net/iconos/v1.x/v1.0/logos/cabecera_portada.png</url>
+      <title>Logotipo de EL PAÍS</title>
+      <link>https://elpais.com/</link>
+  </image>
+  <item>
+    <title><![CDATA[Un periodista que viajó a Milán para cubrir el Valencia-Atalanta, positivo por coronavirus]]></title>
+    <link><![CDATA[https://elpais.com/sociedad/2020/02/27/actualidad/1582795523_075914.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/sociedad/2020/02/27/actualidad/1582795523_075914.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Ferran Bono]]></dc:creator>
+    <description><![CDATA[Se trata del segundo caso confirmado en la comunidad y el decimoquinto en España desde el lunes]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 17:13:44 +0200]]></pubDate>
+    <category><![CDATA[Milán]]></category>
+    <category><![CDATA[Neumonía]]></category>
+    <category><![CDATA[Coronavirus]]></category>
+    <category><![CDATA[Valencia CF]]></category>
+    <category><![CDATA[Valencia]]></category>
+    <category><![CDATA[Lombardía]]></category>
+    <category><![CDATA[Contagio]]></category>
+    <category><![CDATA[Enfermedades respiratorias]]></category>
+    <category><![CDATA[Italia]]></category>
+    <category><![CDATA[Transmisión  enfermedades]]></category>
+    <category><![CDATA[Microbiología]]></category>
+    <category><![CDATA[Comunidad Valenciana]]></category>
+    <category><![CDATA[Enfermedades infecciosas]]></category>
+    <category><![CDATA[Fútbol]]></category>
+    <category><![CDATA[Europa occidental]]></category>
+    <category><![CDATA[Enfermedades]]></category>
+    <category><![CDATA[Medicina]]></category>
+    <category><![CDATA[Deportes]]></category>
+    <category><![CDATA[Europa]]></category>
+    <category><![CDATA[España]]></category>
+    <category><![CDATA[Biología]]></category>
+    <category><![CDATA[Salud]]></category>
+    <category><![CDATA[Ciencia]]></category>
+    <category><![CDATA[Coronavirus Covid-19]]></category>
+    <content:encoded><![CDATA[<p class="src-reactapp-DraftEditor-plugins-draft-js-anchor-plugin---link" title="https://elpais.com/deportes/2020/02/25/actualidad/1582640162_665584.html"><span class="src-reactapp-DraftEditor-plugins-draft-js-anchor-plugin---link">U</span><span class="src-reactapp-DraftEditor-plugins-draft-js-anchor-plugin---link">n periodista que viajó a Milán el pasado 19 de febrero</span> ha dado positivo en las pruebas de coronavirus. La Consejería de Sanidad valenciana ha confirmado este jueves el caso, el segundo en la comunidad, <a href="https://elpais.com/sociedad/2020/02/25/actualidad/1582663242_338066.html" target="_blank">tras el registrado en Castellón,</a> y el decimoquinto en España desde el lunes, tras los dos nuevos casos de Madrid comunicados este jueves y otro más en Barcelona. 2.500 valencianistas, de los que 2.300 tenían entrada previa, se desplazaron para ver el partido de ida de los octavos de final de la Liga de Campeones frente al Atalanta de Bérgamo en San Siro.</p><p><a href="https://elpais.com/sociedad/2020/02/27/actualidad/1582795523_075914.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/27/actualidad/1582795523_075914_1582795972_miniatura_normal.jpg" length="26613" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/27/actualidad/1582795523_075914_1582795972_noticia_normal.jpg" length="100253" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582796009-4ec754c6fad0ab16f74152399aaab4f7]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[Mapa de la expansión y claves para entender el coronavirus de Wuhan]]></title>
+    <link><![CDATA[https://elpais.com/sociedad/2020/02/26/actualidad/1582712658_011286.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/sociedad/2020/02/26/actualidad/1582712658_011286.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[]]></dc:creator>
+    <description><![CDATA[Qué es, cómo se transmite, cuál es la población más vulnerable y dimensiones del contagio en el mundo]]></description>
+    <pubDate><![CDATA[Sun, 1 Mar 2020 15:16:43 +0200]]></pubDate>
+    <content:encoded><![CDATA[<p>El nuevo coronavirus <span>SARS-CoV-2</span>, surgido en la ciudad china de Wuhan a finales de 2019, ha causado una de las mayores crisis sanitarias de los últimos años cuyas consecuencias, no solo sanitarias sino también económicas y sociales, son todavía impredecibles. <a href="https://elpais.com/sociedad/2020/02/26/actualidad/1582701836_703293.html">La epidemia se extiende a 61 países, con más de 85.000 afectados.</a> Aunque el principal foco de infección sigue siendo la provincia china de Hubei, dos focos descontrolados en Italia e Irán, que están exportando decenas de casos a una veintena de países, han hecho que la Organización Mundial de la Salud (OMS) haya decidido subir el nivel de riesgo de <a href="https://elpais.com/sociedad/2020-02-28/la-oms-eleva-la-amenaza-mundial-del-coronavirus-a-un-nivel-muy-alto.html" target="_blank" data-link-track-dtm="">expansión e impacto global a “muy alto”</a>. España está valorando imponer <a href="https://elpais.com/sociedad/2020-02-27/el-auge-de-contagios-en-espana-aboca-a-medidas-mas-duras.html">medidas restrictivas</a> como controlar las aglomeraciones de personas si las transmisiones locales se descontrolan o se extienden a grandes grupos.</p><p><a href="https://elpais.com/sociedad/2020/02/26/actualidad/1582712658_011286.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/26/actualidad/1582712658_011286_1582742390_miniatura_normal.png" length="23132" type="image/png"  />
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/26/actualidad/1582712658_011286_1583145456_portadilla_normal.png" length="287198" type="image/png"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582744411-057b573b0429ed7f23f8efe2ed6845ff]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[El turismo italiano se resiente; España mira expectante]]></title>
+    <link><![CDATA[https://elpais.com/sociedad/2020/02/26/actualidad/1582751511_964259.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/sociedad/2020/02/26/actualidad/1582751511_964259.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Daniel Verdú, Juan Diego Quesada]]></dc:creator>
+    <description><![CDATA[La patronal hotelera del área de Venecia describe un sector “al borde del colapso”]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 15:26:25 +0200]]></pubDate>
+    <category><![CDATA[Adeje]]></category>
+    <category><![CDATA[Roma]]></category>
+    <category><![CDATA[Coronavirus]]></category>
+    <category><![CDATA[Provincia Santa Cruz de Tenerife]]></category>
+    <category><![CDATA[Neumonía]]></category>
+    <category><![CDATA[Virología]]></category>
+    <category><![CDATA[Italia]]></category>
+    <category><![CDATA[Enfermedades respiratorias]]></category>
+    <category><![CDATA[Microbiología]]></category>
+    <category><![CDATA[Canarias]]></category>
+    <category><![CDATA[Enfermedades infecciosas]]></category>
+    <category><![CDATA[Europa occidental]]></category>
+    <category><![CDATA[Enfermedades]]></category>
+    <category><![CDATA[Medicina]]></category>
+    <category><![CDATA[Europa]]></category>
+    <category><![CDATA[Turismo]]></category>
+    <category><![CDATA[España]]></category>
+    <category><![CDATA[Biología]]></category>
+    <category><![CDATA[Salud]]></category>
+    <category><![CDATA[Ciencias naturales]]></category>
+    <category><![CDATA[Ciencia]]></category>
+    <category><![CDATA[Coronavirus Covid-19]]></category>
+    <content:encoded><![CDATA[<p><a href="https://elpais.com/sociedad/2020/02/25/actualidad/1582624011_948627.html">El impacto del <strong>coronavirus</strong> en Italia</a> trasciende ya a la crisis de salud pública y empieza a contagiar la economía del país. Crece el número de países que recomiendan evitar los viajes a Italia —Bosnia, Irlanda, Croacia o Israel, y España a ciertas zonas— y <a href="https://elpais.com/sociedad/2020/02/22/actualidad/1582386705_640949.html?rel=mas">caen en picado las reservas turísticas.</a> La cancelación del carnaval de Venecia, el cierre de todos los espectáculos musicales y teatrales y la cancelación de ferias y congresos como el Salón del Mueble de Milán fueron el primer aviso. En España, el sector mira la evolución de la crisis sin aportar, de momento, datos de impacto. El mensaje general es de tranquilidad, aunque preocupa la caída de reservas en el país transalpino.</p><p><a href="https://elpais.com/sociedad/2020/02/26/actualidad/1582751511_964259.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/26/actualidad/1582751511_964259_1582759340_miniatura_normal.jpg" length="24656" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/26/actualidad/1582751511_964259_1582759340_noticia_normal.jpg" length="101673" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582756973-6afd8929b9df8b7615f40edefa891e3b]]></comments>
+    <enclosure url="https://elpaisfs.prisasd.com/elpaistop/multimedia/20202/27/f6f986136f7d70e226ac5f38df9fa88a_video_1800.mp4" type="video/m4v"  />
+  </item>
+  <item>
+    <title><![CDATA[“La magnitud del problema del coronavirus no será diferente a una gripe”]]></title>
+    <link><![CDATA[https://elpais.com/sociedad/2020/02/26/actualidad/1582744701_468958.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/sociedad/2020/02/26/actualidad/1582744701_468958.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Pablo Linde]]></dc:creator>
+    <description><![CDATA[Ángel Gil de Miguel, catedrático de Medicina Preventiva y Salud Pública de la Universidad Rey Juan Carlos, lanza un mensaje de tranquilidad]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 19:26:43 +0200]]></pubDate>
+    <category><![CDATA[Biología]]></category>
+    <category><![CDATA[Salud]]></category>
+    <category><![CDATA[Ciencias naturales]]></category>
+    <category><![CDATA[Ciencia]]></category>
+    <category><![CDATA[Neumonía]]></category>
+    <category><![CDATA[Coronavirus]]></category>
+    <category><![CDATA[Enfermedades respiratorias]]></category>
+    <category><![CDATA[Virología]]></category>
+    <category><![CDATA[Microbiología]]></category>
+    <category><![CDATA[Enfermedades infecciosas]]></category>
+    <category><![CDATA[Enfermedades]]></category>
+    <category><![CDATA[Medicina]]></category>
+    <category><![CDATA[Coronavirus Covid-19]]></category>
+    <content:encoded><![CDATA[<p dir="ltr">Ángel Gil de Miguel (Madrid, 61 años) es catedrático de Medicina Preventiva y Salud Pública de la Universidad Rey Juan Carlos. En su opinión, existe cierta sobreactuación en algunas medidas que se están tomando en el mundo contra <a href="https://elpais.com/tag/coronavirus/a" target="_blank">la Covid-19</a>.</p><p><a href="https://elpais.com/sociedad/2020/02/26/actualidad/1582744701_468958.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/26/actualidad/1582744701_468958_1582744844_miniatura_normal.jpg" length="10667" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/26/actualidad/1582744701_468958_1582797813_noticia_normal.jpg" length="18865" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582751693-57b77ed78e5b15b71c5e13f23b3b9117]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[Seis italianos encerrados por partida doble]]></title>
+    <link><![CDATA[https://elpais.com/sociedad/2020/02/26/actualidad/1582745125_354016.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/sociedad/2020/02/26/actualidad/1582745125_354016.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Juan Diego Quesada]]></dc:creator>
+    <description><![CDATA[Los compañeros de viaje de los cuatro positivos en Canarias están aislados del resto en el hotel en cuarentena]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 13:36:34 +0200]]></pubDate>
+    <category><![CDATA[Adeje]]></category>
+    <category><![CDATA[Coronavirus]]></category>
+    <category><![CDATA[Provincia Santa Cruz de Tenerife]]></category>
+    <category><![CDATA[Neumonía]]></category>
+    <category><![CDATA[Virología]]></category>
+    <category><![CDATA[Enfermedades respiratorias]]></category>
+    <category><![CDATA[Microbiología]]></category>
+    <category><![CDATA[Canarias]]></category>
+    <category><![CDATA[Enfermedades infecciosas]]></category>
+    <category><![CDATA[Enfermedades]]></category>
+    <category><![CDATA[Medicina]]></category>
+    <category><![CDATA[España]]></category>
+    <category><![CDATA[Biología]]></category>
+    <category><![CDATA[Salud]]></category>
+    <category><![CDATA[Ciencias naturales]]></category>
+    <category><![CDATA[Ciencia]]></category>
+    <category><![CDATA[Coronavirus Covid-19]]></category>
+    <content:encoded><![CDATA[<p>Era un grupo de 10 amigos italianos. Compartieron esta semana vuelo, transporte hasta el hotel en un minibus, cenas, risas, horas en las tumbonas de la piscina y, claro, algún cóctel que alegró la noche. Frente a ellos, el mar, el cielo abierto y la luz blanca y cegadora de la costa. Uno de ellos, un médico de Emilia Romaña, una región del norte de Italia, hizo menos vida social y pasó horas encerrado a su habitación. No se sentía bien. Su pareja le acompañó en algunos momentos de ese proceso febril. El lunes, dos días después de llegar al resort, cogió un taxi y se fue hasta un hospital local. Allí, por su experiencia profesional, por el lugar del que venía, le describió a un colega cómo se sentía y, antes de acabar la explicación, se autodiagnosticó: <a href="https://elpais.com/politica/2020/02/24/actualidad/1582580993_001857.html">“Creo que tengo coronavirus”. Estaba en lo cierto</a>.</p><p><a href="https://elpais.com/sociedad/2020/02/26/actualidad/1582745125_354016.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/26/actualidad/1582745125_354016_1582747646_miniatura_normal.jpg" length="35491" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/26/actualidad/1582745125_354016_1582747646_noticia_normal.jpg" length="152226" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582751712-80b39d3b4be45fdb45e6dd6db9a355e3]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[Trump nombra al vicepresidente Pence a cargo de la crisis del coronavirus]]></title>
+    <link><![CDATA[https://elpais.com/sociedad/2020/02/27/actualidad/1582762594_400436.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/sociedad/2020/02/27/actualidad/1582762594_400436.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Antonia Laborde]]></dc:creator>
+    <description><![CDATA[El CDC confirma el primer caso de origen desconocido en Northern California. El infectado no ha viajado recientemente al extranjero ni ha tenido contacto con un caso confirmado]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 19:26:58 +0200]]></pubDate>
+    <category><![CDATA[Neumonía]]></category>
+    <category><![CDATA[Coronavirus]]></category>
+    <category><![CDATA[Donald Trump]]></category>
+    <category><![CDATA[Enfermedades respiratorias]]></category>
+    <category><![CDATA[Virología]]></category>
+    <category><![CDATA[Estados Unidos]]></category>
+    <category><![CDATA[Microbiología]]></category>
+    <category><![CDATA[Norteamérica]]></category>
+    <category><![CDATA[Enfermedades infecciosas]]></category>
+    <category><![CDATA[Enfermedades]]></category>
+    <category><![CDATA[América]]></category>
+    <category><![CDATA[Medicina]]></category>
+    <category><![CDATA[Biología]]></category>
+    <category><![CDATA[Salud]]></category>
+    <category><![CDATA[Ciencias naturales]]></category>
+    <category><![CDATA[Ciencia]]></category>
+    <category><![CDATA[Coronavirus Covid-19]]></category>
+    <content:encoded><![CDATA[<p>El presidente Donald Trump anunció este miércoles en la sala de prensa de la Casa Blanca que el vicepresidente Mike Pence liderará la estrategia <a href="https://elpais.com/sociedad/2020/02/26/actualidad/1582712658_011286.html">para atajar el coronavirus en Estados Unidos</a>. "Hemos mantenido el coronavirus a raya”, afirmó el mandatario, y detalló que solo uno de los 60 contagiados está hospitalizado. <a href="https://elpais.com/sociedad/2020/02/26/actualidad/1582689866_174569.html">Trump contradijo al Centro de Control y Prevención de Enfermedades (CDC, por sus siglas en inglés) y el Instituto Nacional de Salud</a> y aseguró que no cree que sea "inevitable" la llegada del brote al país. El CDC ha confirmado en la noche del miércoles el primer caso de coronavirus de origen desconocido en el norte de California. El infectado no ha viajado al extranjero ni ha tenido contacto con una persona afectada por el brote. Este nuevo caso eleva a 60 el total de afectados en el país, la mayoría pasajeros del crucero <em>Diamond Princess</em> de Japón.</p><p><a href="https://elpais.com/sociedad/2020/02/27/actualidad/1582762594_400436.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/27/actualidad/1582762594_400436_1582763694_miniatura_normal.jpg" length="18568" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/27/actualidad/1582762594_400436_1582763694_noticia_normal.jpg" length="54732" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582766025-e7a2e6e9d5abc89cbe684951b951465a]]></comments>
+    <enclosure url="https://elpaisfs.prisasd.com/elpaistop/multimedia/20202/27/202002279361360_1582792664_video_1800.mp4" type="video/m4v"  />
+  </item>
+  <item>
+    <title><![CDATA[El coronavirus de Wuhan | Japón cerrará todos sus centros escolares hasta fin de marzo]]></title>
+    <link><![CDATA[https://elpais.com/sociedad/2020/02/27/actualidad/1582772469_101682.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/sociedad/2020/02/27/actualidad/1582772469_101682.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Paloma Almoguera]]></dc:creator>
+    <description><![CDATA[Corea del Sur, con casi 1.600 casos, y EE UU posponen sus ejercicios militares conjuntos]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 15:08:21 +0200]]></pubDate>
+    <category><![CDATA[Coronavirus]]></category>
+    <category><![CDATA[Neumonía]]></category>
+    <category><![CDATA[Virología]]></category>
+    <category><![CDATA[Enfermedades respiratorias]]></category>
+    <category><![CDATA[Microbiología]]></category>
+    <category><![CDATA[China]]></category>
+    <category><![CDATA[Enfermedades infecciosas]]></category>
+    <category><![CDATA[Asia oriental]]></category>
+    <category><![CDATA[Enfermedades]]></category>
+    <category><![CDATA[Asia]]></category>
+    <category><![CDATA[Medicina]]></category>
+    <category><![CDATA[Biología]]></category>
+    <category><![CDATA[Salud]]></category>
+    <category><![CDATA[Ciencias naturales]]></category>
+    <category><![CDATA[Ciencia]]></category>
+    <category><![CDATA[Coronavirus Covid-19]]></category>
+    <content:encoded><![CDATA[<p>El Gobierno japonés ha recomendado este jueves el cierre temporal de todos los centros de enseñanza primaria y secundaria del país durante prácticamente todo el mes de marzo, para tratar de contener el brote del nuevo coronavirus, que ha causado hasta el momento ocho víctimas mortales en Japón. La medida deberá ser implementada a partir del próximo lunes 2 de marzo por cada autoridad local del país, y se suma a las anunciadas este martes, entre ellas <a href="https://elpais.com/sociedad/2020/02/25/actualidad/1582646066_525550.html" target="_blank">promover el teletrabajo y no salir de casa en 17 de las 43 prefecturas.</a></p><p><a href="https://elpais.com/sociedad/2020/02/27/actualidad/1582772469_101682.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/27/actualidad/1582772469_101682_1582773414_miniatura_normal.jpg" length="25590" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/27/actualidad/1582772469_101682_1582786463_noticia_normal.jpg" length="79804" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582779561-5bd22ef86153db1d00638f00fa75db72]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[El Gobierno salva el primer escollo de los Presupuestos gracias a ERC]]></title>
+    <link><![CDATA[https://elpais.com/politica/2020/02/27/actualidad/1582790343_062149.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/politica/2020/02/27/actualidad/1582790343_062149.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Anabel Díez]]></dc:creator>
+    <description><![CDATA[El voto en contra de Junts per Catalunya indigna a los republicanos]]></description>
+    <pubDate><![CDATA[Fri, 28 Feb 2020 08:19:36 +0200]]></pubDate>
+    <category><![CDATA[Presupuestos Generales Estado]]></category>
+    <category><![CDATA[Pedro Sánchez]]></category>
+    <category><![CDATA[María Jesús Montero]]></category>
+    <category><![CDATA[Gabriel Rufián]]></category>
+    <category><![CDATA[JuntsxCat]]></category>
+    <category><![CDATA[Presidencia Gobierno]]></category>
+    <category><![CDATA[ERC]]></category>
+    <category><![CDATA[Finanzas Estado]]></category>
+    <category><![CDATA[PSOE]]></category>
+    <category><![CDATA[Gobierno de España]]></category>
+    <category><![CDATA[Coaliciones electorales]]></category>
+    <category><![CDATA[Congreso Diputados]]></category>
+    <category><![CDATA[Coaliciones políticas]]></category>
+    <category><![CDATA[CDC]]></category>
+    <category><![CDATA[Parlamento]]></category>
+    <category><![CDATA[PdeCat]]></category>
+    <category><![CDATA[Política económica]]></category>
+    <category><![CDATA[Finanzas públicas]]></category>
+    <category><![CDATA[Partidos políticos]]></category>
+    <category><![CDATA[Gobierno]]></category>
+    <category><![CDATA[Elecciones]]></category>
+    <category><![CDATA[Administración Estado]]></category>
+    <category><![CDATA[Política]]></category>
+    <category><![CDATA[Finanzas]]></category>
+    <content:encoded><![CDATA[<p>Sin la senda de déficit no podía haber Presupuestos ni —probablemente— legislatura. Su aprobación ayer en el Congreso abre la posibilidad de que las cuentas públicas estén listas en junio. La abstención de ERC y EH Bildu fue decisiva y despejó muchas incógnitas en la coalición de Gobierno. Con el diálogo sobre Cataluña recién estrenado, el voto de Esquerra fue un claro gesto en aras de la estabilidad política. No hubo nada parecido en Junts per Catalunya que votó en contra de la senda fiscal, lo que indignó a los republicanos. La oposición denunció supuestas “cesiones” al independentismo a cambio de los presupuestos.</p><p><a href="https://elpais.com/politica/2020/02/27/actualidad/1582790343_062149.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/politica/imagenes/2020/02/27/actualidad/1582790343_062149_1582797637_miniatura_normal.jpg" length="18865" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/politica/imagenes/2020/02/27/actualidad/1582790343_062149_1582807919_noticia_normal.jpg" length="53897" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582791168-99606434959b193a9f58e158b090adf3]]></comments>
+    <enclosure url="https://elpaisfs.prisasd.com/elpaistop/multimedia/20202/27/bd6f863b8c606b83aa4a190909cad1d2_video_1800.mp4" type="video/m4v"  />
+  </item>
+  <item>
+    <title><![CDATA[La mesa de diálogo se reunirá mensualmente y los acuerdos serán “en el marco de la seguridad jurídica”]]></title>
+    <link><![CDATA[https://elpais.com/politica/2020/02/26/actualidad/1582729437_069559.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/politica/2020/02/26/actualidad/1582729437_069559.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Carlos E. Cué, Camilo S. Baquero]]></dc:creator>
+    <description><![CDATA[El Gobierno y la Generalitat pactan un comunicado conjunto tras tres horas de reunión]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 11:31:31 +0200]]></pubDate>
+    <category><![CDATA[Quim Torra]]></category>
+    <category><![CDATA[Sentencia Procés]]></category>
+    <category><![CDATA[Tribunal Supremo]]></category>
+    <category><![CDATA[Juicio al Procés]]></category>
+    <category><![CDATA[Referéndum 1 de Octubre]]></category>
+    <category><![CDATA[Tribunales]]></category>
+    <category><![CDATA[Autodeterminación]]></category>
+    <category><![CDATA[Generalitat Cataluña]]></category>
+    <category><![CDATA[Casos judiciales]]></category>
+    <category><![CDATA[Poder judicial]]></category>
+    <category><![CDATA[Referéndum]]></category>
+    <category><![CDATA[Sentencias]]></category>
+    <category><![CDATA[Cataluña]]></category>
+    <category><![CDATA[Elecciones]]></category>
+    <category><![CDATA[Gobierno autonómico]]></category>
+    <category><![CDATA[Conflictos políticos]]></category>
+    <category><![CDATA[Comunidades autónomas]]></category>
+    <category><![CDATA[Política autonómica]]></category>
+    <category><![CDATA[Proceso judicial]]></category>
+    <category><![CDATA[Administración autonómica]]></category>
+    <category><![CDATA[España]]></category>
+    <category><![CDATA[Administración pública]]></category>
+    <category><![CDATA[Política]]></category>
+    <category><![CDATA[Justicia]]></category>
+    <content:encoded><![CDATA[<p>Había tan <a href="https://elpais.com/politica/2020/02/25/actualidad/1582661222_861479.html">pocas expectativas que el comunicado conjunto y las comparecencias</a> tras la primera reunión de la mesa de diálogo sonaron mucho más positivas de lo esperado. Después de tres horas de encuentro, el Gobierno y la Generalitat pactaron que la mesa se reunirá todos los meses en Madrid y Barcelona —aunque ya no estarán ni los presidentes ni los vicepresidentes— y pusieron en el comunicado la palabra “acuerdo”, esto es, que se contempla ya al menos como posibilidad. El único límite es que estos hipotéticos pactos “estarán en el marco de la seguridad jurídica”, sin mención expresa a la Constitución.</p><p><a href="https://elpais.com/politica/2020/02/26/actualidad/1582729437_069559.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/politica/imagenes/2020/02/26/actualidad/1582729437_069559_1582743257_miniatura_normal.jpg" length="16964" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/politica/imagenes/2020/02/26/actualidad/1582729437_069559_1582743257_noticia_normal.jpg" length="55459" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582729436-1e869d67fff691146a1bec6b09009a53]]></comments>
+    <enclosure url="https://elpaisfs.prisasd.com/elpaistop/multimedia/20202/27/9265b903ba4c44f3771b64a42fe06095_video_1800.mp4" type="video/m4v"  />
+  </item>
+  <item>
+    <title><![CDATA[Así avanzan las encuestas en Galicia y País Vasco]]></title>
+    <link><![CDATA[https://elpais.com/politica/2020/02/26/actualidad/1582705222_037590.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/politica/2020/02/26/actualidad/1582705222_037590.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Kiko Llaneras]]></dc:creator>
+    <description><![CDATA[Los últimos sondeos y los datos básicos sobre el coronavirus, en la 'newsletter' de Kiko Llaneras de este miércoles]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 11:00:21 +0200]]></pubDate>
+    <category><![CDATA[Elecciones Gallegas 2020]]></category>
+    <category><![CDATA[Elecciones Vascas 2020]]></category>
+    <category><![CDATA[Vox]]></category>
+    <category><![CDATA[Unidas Podemos]]></category>
+    <category><![CDATA[Elecciones Gallegas]]></category>
+    <category><![CDATA[Elecciones Vascas]]></category>
+    <category><![CDATA[Ciudadanos]]></category>
+    <category><![CDATA[EAJ-PNV]]></category>
+    <category><![CDATA[BNG]]></category>
+    <category><![CDATA[Encuestas electorales]]></category>
+    <category><![CDATA[Elecciones autonómicas]]></category>
+    <category><![CDATA[PSOE]]></category>
+    <category><![CDATA[Partidos ultraderecha]]></category>
+    <category><![CDATA[Coaliciones electorales]]></category>
+    <category><![CDATA[Izquierda Unida]]></category>
+    <category><![CDATA[PP]]></category>
+    <category><![CDATA[Coaliciones políticas]]></category>
+    <category><![CDATA[Podemos]]></category>
+    <category><![CDATA[Ultraderecha]]></category>
+    <category><![CDATA[Elecciones]]></category>
+    <category><![CDATA[Partidos políticos]]></category>
+    <category><![CDATA[Ideologías]]></category>
+    <category><![CDATA[Política]]></category>
+    <category><![CDATA[Biología]]></category>
+    <content:encoded><![CDATA[<p><em>Cada semana, Kiko Llaneras escribe sobre política con datos y una mirada analítica. <a title="Apúntese aquí para recibir la newsletter en su correo" href="https://plus.elpais.com/newsletters/lnp/1/377">Apúntese aquí para recibir la newsletter en su correo</a>. Aquí tiene la de este miércoles.</em></p><p><a href="https://elpais.com/politica/2020/02/26/actualidad/1582705222_037590.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/politica/imagenes/2020/02/26/actualidad/1582705222_037590_1582705381_noticia_normal.jpg" length="105932" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582711110-3d13aad217489580d9421f88a0dc49e0]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[Ciudadanos pagaba un sueldo a un vocal de la Junta Electoral Central que resolvió recursos del partido]]></title>
+    <link><![CDATA[https://elpais.com/politica/2020/02/27/actualidad/1582796971_717381.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/politica/2020/02/27/actualidad/1582796971_717381.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Elsa García de Blas, El País]]></dc:creator>
+    <description><![CDATA[Andrés Betancor ejerció como asesor de la formación en el Congreso mientras era miembro de la máxima autoridad electoral]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 17:13:35 +0200]]></pubDate>
+    <category><![CDATA[Junta Electoral Central]]></category>
+    <category><![CDATA[Quim Torra]]></category>
+    <category><![CDATA[JuntsxCat]]></category>
+    <category><![CDATA[Inhabilitación]]></category>
+    <category><![CDATA[Ciudadanos]]></category>
+    <category><![CDATA[Funcionarios]]></category>
+    <category><![CDATA[Elecciones Generales]]></category>
+    <category><![CDATA[Coaliciones electorales]]></category>
+    <category><![CDATA[Coaliciones políticas]]></category>
+    <category><![CDATA[CDC]]></category>
+    <category><![CDATA[PdeCat]]></category>
+    <category><![CDATA[Sentencias]]></category>
+    <category><![CDATA[Partidos políticos]]></category>
+    <category><![CDATA[Elecciones]]></category>
+    <category><![CDATA[Sanciones]]></category>
+    <category><![CDATA[Juicios]]></category>
+    <category><![CDATA[España]]></category>
+    <category><![CDATA[Proceso judicial]]></category>
+    <category><![CDATA[Política]]></category>
+    <category><![CDATA[Administración pública]]></category>
+    <category><![CDATA[Justicia]]></category>
+    <content:encoded><![CDATA[<p>Andrés Betancor, <a href="https://elpais.com/tag/junta_electoral_central/a">vocal de la Junta Electoral Central entre 2017 y 2019</a>, percibió un sueldo de Ciudadanos mientras participaba en debates y resoluciones que afectaban al partido en el órgano, según adelantó ayer <em><a href="https://www.eldiario.es/politica/Junta-Electoral-Central-Ciudadanos-trascendentales_0_999150310.html" target="_blank">eldiario.es</a>.</em> Betancor ingresó en el organismo a propuesta de Cs y ocultó al Congreso su relación laboral con el partido. Cs subrayó ayer que su asesor no incurrió en una ilegalidad pero eludió aclarar los detalles del caso y lo calificó de “cortina de humo del independentismo”. Los dos candidatos a liderar Cs declinaron pronunciarse.</p><p><a href="https://elpais.com/politica/2020/02/27/actualidad/1582796971_717381.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/politica/imagenes/2019/11/17/actualidad/1574018167_006384_1574018434_miniatura_normal.jpg" length="18158" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/politica/imagenes/2019/11/17/actualidad/1574018167_006384_1574018434_noticia_normal.jpg" length="53353" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582798201-3d48f04bd7a519063c51c21f08c95147]]></comments>
+    <enclosure url="https://elpaisfs.prisasd.com/elpaistop/multimedia/20202/27/20200227164217541_1582818245_video_1800.mp4" type="video/m4v"  />
+  </item>
+  <item>
+    <title><![CDATA[50 antiguos ministros y dirigentes europeos se pronuncian contra el plan de Trump para Palestina]]></title>
+    <link><![CDATA[https://elpais.com/internacional/2020/02/26/actualidad/1582750435_447092.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/internacional/2020/02/26/actualidad/1582750435_447092.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Juan Carlos Sanz]]></dc:creator>
+    <description><![CDATA[El proyecto de paz de la Casa Blanca acumula rechazos en la comunidad internacional]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 13:42:56 +0200]]></pubDate>
+    <category><![CDATA[Opinión]]></category>
+    <category><![CDATA[Benjamin Netanyahu]]></category>
+    <category><![CDATA[Saeb Erekat]]></category>
+    <category><![CDATA[Jerusalén Este]]></category>
+    <category><![CDATA[Autoridad Palestina]]></category>
+    <category><![CDATA[Donald Trump]]></category>
+    <category><![CDATA[Jerusalén]]></category>
+    <category><![CDATA[Israel]]></category>
+    <category><![CDATA[Territorios palestinos]]></category>
+    <category><![CDATA[Conflicto árabe-israelí]]></category>
+    <category><![CDATA[Estados Unidos]]></category>
+    <category><![CDATA[Palestina]]></category>
+    <category><![CDATA[Geopolítica]]></category>
+    <category><![CDATA[Oriente próximo]]></category>
+    <category><![CDATA[Norteamérica]]></category>
+    <category><![CDATA[Asia]]></category>
+    <category><![CDATA[América]]></category>
+    <category><![CDATA[Relaciones exteriores]]></category>
+    <category><![CDATA[Política]]></category>
+    <category><![CDATA[Conflictos]]></category>
+    <content:encoded><![CDATA[<p>Medio centenar de personalidades europeas —exministros de Exteriores, ex primeros ministros o exdirigentes de la Comisión Europea, la ONU o la OTAN— <a href="https://elpais.com/elpais/2020/02/26/opinion/1582722438_998122.html">firman una carta pública (texto íntegro)</a>, que reproduce este jueves EL PAÍS, en la que piden a la UE que rechace el <a href="https://elpais.com/internacional/2020/01/29/actualidad/1580333907_798989.html">plan de Donald Trump para Oriente Próximo</a> por considerar que sometería a los palestinos a un “<em>apartheid</em>” como el sudafricano.</p><p><a href="https://elpais.com/internacional/2020/02/26/actualidad/1582750435_447092.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/internacional/imagenes/2020/02/26/actualidad/1582750435_447092_1582751809_miniatura_normal.jpg" length="23236" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/internacional/imagenes/2020/02/26/actualidad/1582750435_447092_1582751809_noticia_normal.jpg" length="85715" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582774508-6242b0dc911de0a9de59b7c0a70c5742]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[Plácido Domingo anula sus representaciones en el Real antes de que el teatro las cancelara]]></title>
+    <link><![CDATA[https://elpais.com/cultura/2020/02/27/actualidad/1582789321_585769.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/cultura/2020/02/27/actualidad/1582789321_585769.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Jesús Ruiz Mantilla, Ferran Bono]]></dc:creator>
+    <description><![CDATA[El festival de Úbeda tampoco recibirá al tenor y el Palau de les Arts quita su nombre a un centro]]></description>
+    <pubDate><![CDATA[Fri, 28 Feb 2020 09:33:16 +0200]]></pubDate>
+    <category><![CDATA[Plácido Domingo]]></category>
+    <category><![CDATA[Teatro Real]]></category>
+    <category><![CDATA[Ministerio de Cultura y Deporte]]></category>
+    <category><![CDATA[Isabel Díaz Ayuso]]></category>
+    <category><![CDATA[Acoso sexual]]></category>
+    <category><![CDATA[Ópera]]></category>
+    <category><![CDATA[Teatro musical]]></category>
+    <category><![CDATA[Salas teatro]]></category>
+    <category><![CDATA[Gobierno de España]]></category>
+    <category><![CDATA[Delitos sexuales]]></category>
+    <category><![CDATA[Teatro]]></category>
+    <category><![CDATA[Gobierno]]></category>
+    <category><![CDATA[Ministerios]]></category>
+    <category><![CDATA[Delitos]]></category>
+    <category><![CDATA[Artes escénicas]]></category>
+    <category><![CDATA[Administración Estado]]></category>
+    <category><![CDATA[Comunidad de Madrid]]></category>
+    <category><![CDATA[Espectáculos]]></category>
+    <category><![CDATA[España]]></category>
+    <category><![CDATA[Política]]></category>
+    <category><![CDATA[Administración pública]]></category>
+    <category><![CDATA[Justicia]]></category>
+    <content:encoded><![CDATA[<p>El tenor <strong><a href="https://elpais.com/tag/placido_domingo/a/">Plácido Domingo</a></strong> ha decidido cancelar sus próximas representaciones de <em>La Traviata</em> en el Teatro Real de Madrid, previstas para mayo, y también se retirará de aquellas actuaciones en las que las compañías o teatros tengan dificultades para asumir sus compromisos, según asegura en un comunicado remitido este jueves. El Teatro Real iba a anunciar a las 11 de la mañana, tras la reunión de su comisión ejecutiva, que anulaba esas actuaciones, pero el tenor se ha adelantado. La Asociación Cultural de Amigos de la Música también ha decidido cancelar el concierto de Domingo previsto para el 3 de mayo en el Festival Internacional de Música y Danza de Úbeda, de ahí que el tenor ya no tenga actuaciones programadas en España. Además, la comisión ejecutiva del patronato del Palau de les Arts ha decidido retirar el nombre de Plácido Domingo de su Centro de Perfeccionamiento en una reunión mantenida hoy.</p><p><a href="https://elpais.com/cultura/2020/02/27/actualidad/1582789321_585769.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/cultura/imagenes/2020/02/27/actualidad/1582789321_585769_1582794632_miniatura_normal.jpg" length="15386" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/cultura/imagenes/2020/02/27/actualidad/1582789321_585769_1582790092_noticia_normal.jpg" length="40351" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582789644-84f416451a60bfaa8fe8804295f14c08]]></comments>
+    <enclosure url="https://elpaisfs.prisasd.com/elpaistop/multimedia/20202/27/86e4da93f1d390d4fd81392d9f903c91_video_1800.mp4" type="video/m4v"  />
+  </item>
+  <item>
+    <title><![CDATA[Así gestionan nuestros vecinos europeos la expansión de Airbnb]]></title>
+    <link><![CDATA[https://elpais.com/internacional/2020/02/21/sonar_europe/1582302332_702790.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/internacional/2020/02/21/sonar_europe/1582302332_702790.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Katarzyna Korzeniowska / Danuta Pawłowska / Stanisław Dudzik (Gazeta Wyborcza)]]></dc:creator>
+    <description><![CDATA[París, Roma o Berlín optan por modelos diferentes para abordar las consecuencias en el mercado turístico e inmobiliario]]></description>
+    <pubDate><![CDATA[Wed, 26 Feb 2020 20:05:03 +0200]]></pubDate>
+    <category><![CDATA[Airbnb]]></category>
+    <category><![CDATA[Pisos turísticos]]></category>
+    <category><![CDATA[Turistificación]]></category>
+    <category><![CDATA[Turismo masivo]]></category>
+    <category><![CDATA[Gentrificación]]></category>
+    <category><![CDATA[Alojamientos]]></category>
+    <category><![CDATA[Hostelería]]></category>
+    <category><![CDATA[Economía urbana]]></category>
+    <category><![CDATA[Ciudades sostenibles]]></category>
+    <category><![CDATA[Política urbanística]]></category>
+    <category><![CDATA[Empresas]]></category>
+    <category><![CDATA[Turismo]]></category>
+    <category><![CDATA[Desarrollo urbano]]></category>
+    <category><![CDATA[Desarrollo sostenible]]></category>
+    <category><![CDATA[Europa]]></category>
+    <category><![CDATA[Problemas sociales]]></category>
+    <category><![CDATA[Economía]]></category>
+    <category><![CDATA[Urbanismo]]></category>
+    <category><![CDATA[Sociedad]]></category>
+    <category><![CDATA[Medio ambiente]]></category>
+    <category><![CDATA[Política]]></category>
+    <content:encoded><![CDATA[<p>En 2008, tres compañeros de piso en San Francisco decidieron cobrar una pequeña suma por alquilar un colchón hinchable en su piso y así tener una ayuda para pagar el elevado precio del alquiler de la ciudad. <span>Es la historia de la fundación de Airbnb. </span>Hoy, la plataforma cuenta con más de 100.000 ofertas en todo el mundo y cada noche dos millones de personas duermen en habitaciones que han alquilado a través del portal. </p><p><a href="https://elpais.com/internacional/2020/02/21/sonar_europe/1582302332_702790.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/internacional/imagenes/2020/02/21/sonar_europe/1582302332_702790_1582307413_miniatura_normal.jpg" length="15964" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/internacional/imagenes/2020/02/21/sonar_europe/1582302332_702790_1582307413_noticia_normal.jpg" length="53280" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582743109-2755b7a7c351ab2aac6a315e08498ed3]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[La Fiscalía se querella contra una mujer por tuitear un vídeo falso de menores migrantes]]></title>
+    <link><![CDATA[https://elpais.com/ccaa/2020/02/27/catalunya/1582793229_305704.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/ccaa/2020/02/27/catalunya/1582793229_305704.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Jesús García]]></dc:creator>
+    <description><![CDATA[La agresión de unos alumnos a una profesora ocurrió en Brasil y no en España]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 13:21:28 +0200]]></pubDate>
+    <category><![CDATA[Menores migrantes]]></category>
+    <category><![CDATA[Fiscalía]]></category>
+    <category><![CDATA[Menores]]></category>
+    <category><![CDATA[Cataluña]]></category>
+    <category><![CDATA[Poder judicial]]></category>
+    <category><![CDATA[Migrantes]]></category>
+    <category><![CDATA[Migración]]></category>
+    <category><![CDATA[Grupos sociales]]></category>
+    <category><![CDATA[Demografía]]></category>
+    <category><![CDATA[España]]></category>
+    <category><![CDATA[Sociedad]]></category>
+    <category><![CDATA[Justicia]]></category>
+    <content:encoded><![CDATA[<p>La Fiscalía de Barcelona se ha querellado contra una mujer por difundir en Twitter un vídeo que muestra a unos supuestos menores migrantes agrediendo a una profesora. Sin embargo,  la escena que se ve en las imágenes ocurrió realmente en Brasil y no en España. El fiscal de delitos de odio de Barcelona acusa ahora a la mujer, vecina de Sant Joan Despí, de lesionar "la dignidad de las personas por motivos de discriminación relativos a la nación u origen nacional".</p><p><a href="https://elpais.com/ccaa/2020/02/27/catalunya/1582793229_305704.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/ccaa/imagenes/2018/11/24/madrid/1543077391_578679_1543078301_miniatura_normal.jpg" length="18171" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/ccaa/imagenes/2018/11/24/madrid/1543077391_578679_1543078301_noticia_normal.jpg" length="75203" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582794750-2c34a8699d58e756b5b037c551b010bc]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[China desvela de qué está hecha la cara oculta de la Luna]]></title>
+    <link><![CDATA[https://elpais.com/elpais/2020/02/25/ciencia/1582651238_235155.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/elpais/2020/02/25/ciencia/1582651238_235155.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Nuño Domínguez]]></dc:creator>
+    <description><![CDATA[El ‘Yutu-2’ obtiene las imágenes de radar más precisas del interior lunar hasta la fecha]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 11:43:38 +0200]]></pubDate>
+    <category><![CDATA[La Luna]]></category>
+    <category><![CDATA[China]]></category>
+    <category><![CDATA[Exploración espacial]]></category>
+    <category><![CDATA[Sistema solar]]></category>
+    <category><![CDATA[Investigación científica]]></category>
+    <category><![CDATA[Astronáutica]]></category>
+    <category><![CDATA[Universo]]></category>
+    <category><![CDATA[Astronomía]]></category>
+    <category><![CDATA[Ciencia]]></category>
+    <content:encoded><![CDATA[<p dir="ltr">Un pequeño robot chino desvela hoy, gracias a un radar que le permite explorar el subsuelo lunar, de qué está hecho el interior de la cara oculta de la Luna. El nivel de detalle no tiene precedentes y ha permitido reconstruir el pasado de nuestro satélite y localizar los escombros del impacto de un asteroide que sucedió hace 3.200 millones de años, cuando la vida en la Tierra apenas empezaba a surgir.</p><p><a href="https://elpais.com/elpais/2020/02/25/ciencia/1582651238_235155.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2020/02/25/ciencia/1582651238_235155_1582741504_miniatura_normal.jpg" length="9265" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2020/02/25/ciencia/1582651238_235155_1582741504_noticia_normal.jpg" length="36696" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582653764-ff8ffcad7c6448b721cc2c2fac031f8f]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[Especial EL PAÍS en Arco | Muntadas: “La sociedad ha degradado las palabras”]]></title>
+    <link><![CDATA[https://elpais.com/elpais/2020/02/27/actualidad/1582803771_531979.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/elpais/2020/02/27/actualidad/1582803771_531979.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[]]></dc:creator>
+    <description><![CDATA[]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 12:49:20 +0200]]></pubDate>
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2020/02/27/actualidad/1582803771_531979_1582803808_portada_normal.jpg" length="75417" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582803771-dc92a2a89711e5d290221602f1a9d85f]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[La historia de Duralex, una vajilla tan irrompible como nuestra nostalgia]]></title>
+    <link><![CDATA[https://elpais.com/verne/2020/02/25/articulo/1582628993_071991.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/verne/2020/02/25/articulo/1582628993_071991.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Marta Villena]]></dc:creator>
+    <description><![CDATA[La marca francesa ha pasado de las estanterías de las tiendas a las vitrinas de los museos]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 08:27:18 +0200]]></pubDate>
+    <category><![CDATA[Vajillas]]></category>
+    <category><![CDATA[Cristalería]]></category>
+    <category><![CDATA[Saint Gobain]]></category>
+    <category><![CDATA[Diseño industrial]]></category>
+    <category><![CDATA[Empresas]]></category>
+    <category><![CDATA[Economía]]></category>
+    <category><![CDATA[Industria]]></category>
+    <content:encoded><![CDATA[<p>"¿Vosotros también conocéis a alguien que tenga esta vajilla?", preguntaba en Twitter el pasado 19 de febrero la usuaria <a href="https://twitter.com/Malhellfica">@Malhellfica</a> mostrando una imagen de una colección de platos y tazas de color ámbar. Acto seguido, empezaron a sucederse miles de reacciones y comentarios de personas que reconocían tenerla todavía o haber comido a lo largo de sus vidas en esta vajilla Duralex, de origen francés y que empezó a comercializarse en el país vecino en 1945. Pero ¿cómo llegó a los hogares españoles y por qué evoca tanta nostalgia?</p><p><a href="https://elpais.com/verne/2020/02/25/articulo/1582628993_071991.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2020/02/27/portada/1582804176_187015_1582804289_miniatura_normal.jpg" length="15301" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/verne/imagenes/2020/02/25/articulo/1582628993_071991_1582631824_noticia_normal.jpg" length="29878" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582754569-975f907304bf5f0055705412b288f5d4]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[¿Por qué los mosquitos se ceban con nuestros tobillos?]]></title>
+    <link><![CDATA[https://elpais.com/elpais/2020/02/27/ciencia/1582797400_512615.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/elpais/2020/02/27/ciencia/1582797400_512615.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Manuel Peinado Lorca, The Conversation]]></dc:creator>
+    <description><![CDATA[El olor a ácido láctico emanado de los pies, diferente en cada individuo, atrae a estos insectos]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 14:25:21 +0200]]></pubDate>
+    <category><![CDATA[Mosquitos]]></category>
+    <category><![CDATA[Insectos]]></category>
+    <category><![CDATA[Enfermedades infecciosas]]></category>
+    <category><![CDATA[Investigación científica]]></category>
+    <category><![CDATA[Animales]]></category>
+    <category><![CDATA[Enfermedades]]></category>
+    <category><![CDATA[Fauna]]></category>
+    <category><![CDATA[Medicina]]></category>
+    <category><![CDATA[Especies]]></category>
+    <category><![CDATA[Medio ambiente]]></category>
+    <category><![CDATA[Salud]]></category>
+    <category><![CDATA[Ciencia]]></category>
+    <content:encoded><![CDATA[<p>La capacidad de percibir la temperatura es un sentido fundamental para los insectos. Dicha termorrecepción está implicada en las preferencias ambientales, en evitar condiciones dañinas y, en el caso de los hematófagos, en reconocer y localizar a víctimas potenciales.</p><p><a href="https://elpais.com/elpais/2020/02/27/ciencia/1582797400_512615.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2020/02/27/ciencia/1582797400_512615_1582797833_miniatura_normal.jpg" length="10408" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2020/02/27/ciencia/1582797400_512615_1582797833_noticia_normal.jpg" length="33760" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582798963-ad5efea2e4275e9f2fb7bb37ca129e4c]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[Consumo da la razón a los clientes de Fnac que compraron un móvil 575 euros más barato por un error]]></title>
+    <link><![CDATA[https://elpais.com/sociedad/2020/02/27/actualidad/1582796975_880373.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/sociedad/2020/02/27/actualidad/1582796975_880373.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Miguel Ángel Medina]]></dc:creator>
+    <description><![CDATA[La empresa ofreció en su web un Huawei de alta gama por 124 euros cuando su precio era de 699 euros. Recibió 12.000 pedidos que anuló]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 17:15:33 +0200]]></pubDate>
+    <category><![CDATA[Fnac]]></category>
+    <category><![CDATA[Ministerio de Consumo]]></category>
+    <category><![CDATA[Alberto Garzón]]></category>
+    <category><![CDATA[Facua]]></category>
+    <category><![CDATA[Asociaciones consumidores]]></category>
+    <category><![CDATA[Huawei]]></category>
+    <category><![CDATA[Gobierno de España]]></category>
+    <category><![CDATA[Gobierno]]></category>
+    <category><![CDATA[Ministerios]]></category>
+    <category><![CDATA[Consumidores]]></category>
+    <category><![CDATA[Empresas]]></category>
+    <category><![CDATA[Administración Estado]]></category>
+    <category><![CDATA[Consumo]]></category>
+    <category><![CDATA[Economía]]></category>
+    <category><![CDATA[Telecomunicaciones]]></category>
+    <category><![CDATA[Comunicaciones]]></category>
+    <category><![CDATA[Administración pública]]></category>
+    <category><![CDATA[Política]]></category>
+    <content:encoded><![CDATA[<p>El <a href="https://elpais.com/tag/ministerio_consumo/a">Ministerio de Consumo</a> ha dado la razón <a href="https://www.fnac.es/?origin=SEA_GOOG_SEA_BRAND&gclid=EAIaIQobChMIpty6r73x5wIVFIfVCh1UcwFXEAAYASAAEgIucfD_BwE&gclsrc=aw.ds">a los clientes de Fnac</a> que compraron un móvil de alta gama 575 euros más barato de su precio real por un error en la web de la empresa. La compañía francesa ofreció en su página el pasado 27 de octubre un Huawei modelo P30 Pro 6,47” 128GB Breathing Crystal por 124,9 euros (o 139,9 euros para los no socios), cuando el precio real era de 699,9 euros. Fnac recibió unos 12.000 pedidos, que anuló al percatarse del error. Ahora, un laudo arbitral da la razón a 30 clientes que reclamaron que se les entregara el teléfono al precio anunciado y abre la vía a futuras reclamaciones por el mismo motivo. Fnac ha rehusado por ahora valorar la decisión.</p><p><a href="https://elpais.com/sociedad/2020/02/27/actualidad/1582796975_880373.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/27/actualidad/1582796975_880373_1582799022_miniatura_normal.jpg" length="26462" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/sociedad/imagenes/2020/02/27/actualidad/1582796975_880373_1582800034_noticia_normal.jpg" length="79420" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582800075-8f01a9234d0e06677c31570b5911d225]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[Javier Bardem: “Hoy hay algún Hernán Cortés en el Congreso”]]></title>
+    <link><![CDATA[https://elpais.com/cultura/2020/02/26/actualidad/1582734306_817032.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/cultura/2020/02/26/actualidad/1582734306_817032.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Gregorio Belinchón]]></dc:creator>
+    <description><![CDATA[El actor presenta en Berlín 'The Roads Not Taken' a pocas horas de viajar a México para rodar la serie de Amazon sobre el conquistador español producida por Spielberg]]></description>
+    <pubDate><![CDATA[Thu, 27 Feb 2020 10:30:32 +0200]]></pubDate>
+    <category><![CDATA[Javier Bardem]]></category>
+    <category><![CDATA[Carlos Bardem]]></category>
+    <category><![CDATA[Elle Fanning]]></category>
+    <category><![CDATA[Salma Hayek]]></category>
+    <category><![CDATA[Dalton Trumbo]]></category>
+    <category><![CDATA[Steven Zaillian]]></category>
+    <category><![CDATA[Hernán Cortés]]></category>
+    <category><![CDATA[Sally Potter]]></category>
+    <category><![CDATA[Amazon Prime Video]]></category>
+    <category><![CDATA[Berlinale]]></category>
+    <category><![CDATA[Steven Spielberg]]></category>
+    <category><![CDATA[Festivales cine]]></category>
+    <category><![CDATA[Festivales]]></category>
+    <category><![CDATA[Plataformas digitales]]></category>
+    <category><![CDATA[Televisión IP]]></category>
+    <category><![CDATA[Cine]]></category>
+    <category><![CDATA[Televisión]]></category>
+    <category><![CDATA[Cultura]]></category>
+    <content:encoded><![CDATA[<p>A menos de un día de viajar desde Berlín a México <a href="https://elpais.com/cultura/2018/03/27/television/1522137523_733680.html">a rodar durante cuatro meses la serie <em>Cortés</em></a> para Amazon, <a href="https://elpais.com/tag/javier_bardem/a/">Javier Bardem</a> presentó <a href="https://elpais.com/tag/festival_berlin/a/">en la Berlinale</a> el miércoles <em>The Roads Not Taken,</em> una aproximación de Sally Potter a la demencia, en la que el actor español da vida a un escritor, Leo. Mientras este es cuidado durante un día en Nueva York por su hija <a href="https://elpais.com/tag/mary_elle_fanning_arrington/a/">(Elle Fanning),</a> vive otros momentos de posibles vidas paralelas: en México, con <a href="https://elpais.com/tag/salma_hayek/a/">Salma Hayek,</a> como un matrimonio que ha perdido a su hijo; y en Grecia, como un autor que busca el final de su libro. Todos son Leo, ¿pero en qué grado?</p><p><a href="https://elpais.com/cultura/2020/02/26/actualidad/1582734306_817032.html#?ref=rss&format=simple&link=seguir">Seguir leyendo</a>.</p>]]></content:encoded>
+    <enclosure url="https://ep00.epimg.net/cultura/imagenes/2020/02/26/actualidad/1582734306_817032_1582749328_miniatura_normal.jpg" length="14020" type="image/jpeg"  />
+    <enclosure url="https://ep00.epimg.net/cultura/imagenes/2020/02/26/actualidad/1582734306_817032_1582749299_noticia_normal.jpg" length="47034" type="image/jpeg"  />
+    <comments><![CDATA[http://eskup.elpais.com/C1582750287-6a7cb39f2156fc1314bd1508156ab853]]></comments>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,137 @@
+@font-face 
+{
+    font-family: 'Montserrat';
+    src: url(./docs/montserrat_[allfont.es].eot);
+}
+
+
+*
+{
+    box-sizing: border-box;
+}
+
+html,
+body
+{
+    background-image: url(../img/body_web_1900x600.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: repeat-x; 
+    font-family: 'Montserrat';
+    /* background:#f3e2c7; */
+    margin: 0;
+}
+
+
+
+#content_noticias
+{
+    /* border: 1px solid blue; */
+    width: 70%;
+    min-width: 800px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+}
+
+#content_noticias h1
+{
+    /* color: #004d99; */
+    font-family: 'Montserrat' !important;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    letter-spacing: .5px;
+    text-shadow:  rgba(173, 194, 197, .6) 2px 2px 3px;
+}
+
+.cajas2
+{
+    /* border: 1px solid brown; */
+    font-family: 'Montserrat' !important;
+    font-size: 15px;
+    letter-spacing: .5px;
+    display: inline-block;
+    margin-top: 10px;
+    width: 600px;
+
+    /* margin-left: 20px;
+    margin-right: 40px; */
+}
+
+#content_item_noticias
+{
+    float: left;
+    width: 600px;
+    height: 430px;
+    text-align: justify;
+    margin-right: 70px;
+}
+
+#content_item_noticias h2
+{
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    text-align: left;
+}
+
+#content_item_noticias p
+{
+    
+    margin-left: 0;
+    margin-right: 5px;
+    font-weight: normal;
+    font-family: 'Montserrat' !important;
+}
+
+#content_item_enlaces
+{
+    width: 587px;
+    /* overflow: hidden; */
+    height: 390px;
+}
+
+#btn
+{
+    width: 50px;
+    margin-left: 500px;
+    margin-top: -13px;
+    margin-bottom: -5px;
+    cursor: pointer;
+}
+
+#enlaces_externos
+{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 394px !important;
+    overflow: hidden;
+    
+    
+}
+
+#enlaces_externos li
+{
+    list-style: none;
+    padding: 3px;
+}
+
+#enlaces_externos a
+{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 8px;
+    color: darkblue;
+}
+
+

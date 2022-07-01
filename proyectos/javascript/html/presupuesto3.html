@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="keywords" content="formularios, html5, cuestionario, diseño, web" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/presupuesto.css">
+    <title>solicitud de presupuesto</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js"></script> -->
+    <script src="./javascript/validarPresupuesto.js"></script>
+    <script>
+        // function enviar_formulario() {
+        //     $.ajax({
+        //         type: $("#formularioPresupuesto").attr("method"),
+        //         url: $("#formularioPresupuesto").attr("action"),
+        //         data: $("#formularioPresupuesto").serialize(),
+        //         beforeSend: function () {
+        //             //alert("antes");
+        //         },
+        //         complete: function (data) {
+        //             //alert("completado");
+        //         },
+        //         success: function (data) {
+        //             /*
+        //             * Se ejecuta cuando termina la petición y esta ha sido
+        //             * correcta
+        //             * */
+        //             $("#respuesta").html(data);
+        //         },
+        //         error: function (data) {
+        //             /*
+        //             * Se ejecuta si la peticón ha sido erronea
+        //             * */
+        //             alert("Problemas al tratar de enviar el formulario");
+        //         }
+        //     });
+        // }
+    </script>
+</head>
+<body>
+    
+    <section id="contenedor_form_presupuesto"> 
+        <h1>Solicitud de presupuesto</h1>
+
+<!------------------------- FORMULARIO  ----------------------->
+
+        <form action="./php/datosformulariopresupuesto.php" method="post" enctype="text/plain" id="formularioPresupuesto">
+
+            <!-- APARTADO   DATOS PERSONALES  ----------------------->
+
+            <table id="datos_personales">
+                
+                <tr id="titulo_text">
+                    <th colspan="2">*Datos personales:</th>
+                </tr>
+                    <td >
+                        <input 
+                            type="text" 
+                            name="nombrePresupuesto" 
+                            id="nombrePresupuesto"
+                            class=""  
+                            value="" 
+                            placeholder="*Nombre"  
+                        />
+                    </td>
+                    <td>
+                        <input 
+                            type="text" 
+                            name="apellidosPresupuesto"
+                            class="" 
+                            id="apellidosPresupuesto"  
+                            value="" 
+                            placeholder="*Apellidos" 
+                        />
+                    </td>
+                    <td>
+                        <input 
+                            type="email" 
+                            name="correoPresupuesto" 
+                            id="correoPresupuesto"
+                            class="" 
+                            value="" 
+                            placeholder="* example@example.com" 
+                        />
+                    </td>
+                    <td>
+                        <input 
+                            type="text" 
+                            name="telefonoPresupuesto" 
+                            id="telefonoPresupuesto"
+                            class="" 
+                            value=""   
+                            placeholder="* +34123456789"  
+                        />
+                    </td>
+                <tr colspan = "2">    
+                    <td>
+                        <p 
+                            id="mensajeDatosPer" 
+                            class="error mensaje">
+                            
+                        </p>
+                    </td>
+                </tr>    
+                      
+            </table>
+
+            <!-- APARTADO   WEB  --------------------->
+
+            <table id="apartado_web">
+                <thead>
+                    <tr>
+                        <th colspan="2">*La web:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tipo de p&aacute;gina web:</td>
+                        <td>
+                            <select name="tipoPresupuesto" id="tipoPresupuesto">
+                                <option 
+                                    name="tipoPresupuesto" 
+                                    value="0" 
+                                    >
+                                </option>
+                                <option 
+                                    name="tipoPresupuesto" 
+                                    value="200">
+                                        Landing
+                                </option>"
+                                <option 
+                                    name="tipoPresupuesto" 
+                                    value="250">
+                                        Blog
+                                </option>
+                                <option 
+                                    name="tipoPresupuesto" 
+                                    
+                                    value="300">
+                                        Web corporativa
+                                </option>
+                                <option 
+                                    name="tipoPresupuesto" 
+
+                                    value="350">
+                                        web responsive
+                                </option>
+                                <option 
+                                    name="tipoPresupuesto" 
+                                    value="400">
+                                        web de ervicios
+                                </option>
+                                <option 
+                                    name="tipoPresupuesto" 
+                                    value="450">
+                                        Tienda online
+                                </option>
+                                
+                            </select>
+                        </td>
+                    <!-- </tr>
+                    <tr> -->
+                        <td id="meses">Plazo en meses:</td>
+                        <td>
+                            <select name="plazoPresupuesto" id="plazoPresupuesto">
+                                <option name="plazoPresupuesto" value="" ></option>
+                                <option name="plazoPresupuesto" value="0">2 meses</option>
+                                <option name="plazoPresupuesto" value="0">4 meses</option>
+                                <option name="plazoPresupuesto" value="0.05">6 meses</option>
+                                <option name="plazoPresupuesto" value="0.1">8 meses</option>
+                                <option name="plazoPresupuesto" value="0.15">10 meses</option>
+                                <option name="plazoPresupuesto" value="0.2">12 meses</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Marque las secciones deseadas:</td>
+                    </tr>   
+                    <tr>
+                        <td>
+                            <input 
+                                class="apartado_web_input" 
+                                type="checkbox" 
+                                name="secciones" 
+                                id="quienes_somos" 
+                                value="50"
+                            />
+                            <label for="quienes_somos">
+                                Qui&eacute;nes somos
+                            </label>
+                        </td>
+                        <!-- <td >Qui&eacute;nes somos</td> -->
+                        <td>
+                            <input 
+                                class="apartado_web_input" 
+                                type="checkbox" 
+                                name="secciones" 
+                                id="donde_estamos" 
+                                value="50" 
+                            />
+                            <label for="donde_estamos">
+                                D&oacute;nde estamos
+                            </label>
+                        </td>
+                        <!-- <td>D&oacute;nde estamos</td> -->
+                        <td>
+                            <input 
+                                class="apartado_web_input" 
+                                type="checkbox" 
+                                name="secciones" 
+                                id="galeria" 
+                                value="50"
+                            />
+                            <label for="galeria">
+                                Galer&iacute;a de fotos
+                            </label>
+                        </td>
+                        <!-- <td>Galer&iacute;a de fotos</td> -->
+                        <td>
+                            <input 
+                                class="apartado_web_input" 
+                                type="checkbox" 
+                                name="secciones" 
+                                id="gestion" 
+                                value="50"
+                            />
+                            <label for="gestion">
+                            Gesti&oacute;n interna 
+                            </label>
+                        </td>
+                        <!-- <td>Gesti&oacute;n interna</td> -->
+                    </tr>
+                    <tr class="secciones_2">
+                        
+                        <td>
+                            <input 
+                                class="apartado_web_input" 
+                                type="checkbox" 
+                                name="secciones" 
+                                id="noticias" 
+                                value="50"
+                            />
+                        <label>Not&iacute;cias</label> 
+                        </td>
+                        <td>
+                            <input 
+                                class="apartado_web_input" 
+                                type="checkbox" 
+                                name="secciones" 
+                                id="eComerce" 
+                                value="50"
+                            />
+                            <label for="eComerce">
+                                eComerce 
+                            </label>   
+                        </td>
+                        <td>
+                            <input 
+                                class="apartado_web_input" 
+                                type="checkbox" 
+                                name="secciones" 
+                                id="facebook" 
+                                value="50"
+                            />
+                           <label for="facebook">
+                                Facebook
+                            </label>  
+                        </td>
+                        <td>
+                            <input 
+                                class="apartado_web_input" 
+                                type="checkbox" 
+                                name="secciones" 
+                                id="instagram" 
+                                value="50"
+                            />
+                            <label for="instagram">
+                                Instagram
+                            </label>  
+                        </td>
+                        <tr>
+                            <td>
+                                <input 
+                                    class="apartado_web_input" 
+                                    type="checkbox" 
+                                    name="secciones" 
+                                    id="twitter" 
+                                    value="50"
+                                />
+                                <label for="twitter">
+                                    Twitter
+                                </label>  
+                            </td>
+                            <td>
+                                <input 
+                                    class="apartado_web_input" 
+                                    type="checkbox" 
+                                    name="secciones" 
+                                    id="newsletter" 
+                                    value="50"
+                                />
+                                <label for="newsletter">
+                                    Newsletter
+                                </label>
+                            </td>
+                            <td>
+                                <input 
+                                    class="apartado_web_input" 
+                                    type="checkbox" 
+                                    name="secciones" 
+                                    id="hosting" 
+                                    value="50"
+                                />
+                                <label for="hosting">
+                                    Hosting
+                                </label> 
+                            </td>
+                            <td>
+                                <input 
+                                    class="apartado_web_input" 
+                                    type="checkbox" 
+                                    name="secciones" 
+                                    id="seo" 
+                                    value="50"
+                                />
+                                <label for="seo">
+                                    Seo 
+                                </label>  
+                            </td>
+                        </tr>  
+                    </tr>
+                </tbody> 
+                <tfoot>   
+                    <tr colspan="2">
+                    <td>
+                        <p 
+                            id="mensajeDatosWeb" 
+                            class="error mensaje">
+                        
+                        </p>
+                    </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        <!--  PRESUPUESTO ESTIMADO -->
+
+            <div id="presupuesto_estimado">
+                <div id="respuesta"></div>
+                
+                    <fieldset>
+                        <div id="content_observaciones">
+                            <legend>
+                                <h4 id="titulo">
+                                    *Observaciones: 
+                                </h4>
+                            </legend>
+                            <textarea 
+                                name="observaciones" 
+                                id="observaciones" 
+                                cols="30" rows="6">
+                            </textarea>
+                            
+                        </div>
+                        <div id="content_presupuesto_estimado">   
+                            <legend>
+                                <h4>Presupuesto estimado:</h4>
+                            </legend>
+                            <input 
+                                type="text" 
+                                name="presupuesto" 
+                                id="presupuesto" 
+                                placeholder="0,00 €" 
+                                disabled
+                            />
+                            <br />
+                            <label>
+                                (Recuerde que este presupuesto es estimado,
+                                <br/>
+                                <label>
+                                    dependiendo del tipo de web podr&iacute;a aumentar o disminuir.)
+                                </label>  
+                            </label>
+                            <p 
+                                id="mensajePestimado" 
+                                class="error mensaje">
+                               
+                            </p>
+                        </div>
+                        
+                </fieldset>
+                
+                <div id="presupuesto_estimado_botones">
+                   <p id="mensajePresupuesto" class=""></p> 
+                    <input 
+                        id="btnEnviar" 
+                        type="button" 
+                        name="enviar" 
+                        value="Enviar"
+                    />
+                    <!-- onclick="enviar_formulario()"  -->
+                    <input 
+                        type="reset" 
+                        name="reset" 
+                        value="Borrar"
+                        id="btn_borrar"
+                    />
+                </div>
+                <p id="nota">nota: *campos obligatorios.</p>
+            </div>
+        </form>
+    </section>
+
+            
+</body>
+</html>

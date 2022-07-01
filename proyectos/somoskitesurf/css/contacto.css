@@ -1,0 +1,294 @@
+/****************  Encabezado importado*****************************/
+
+/* @import url(encabezado.css); */
+
+/*************** menu horizontal importado ***********************/
+/* @import url(nav_horizontal.css); */
+
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(../montserrat_[allfont.es].eot);
+}
+/******************************************** RESET ************************/
+html, body, div, h1, h2, h3, h4, h5, h6, form, table, caption, tbody, tfoot, thead, tr, th, td{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html, body{
+    line-height: 1;
+    /* background-color: rgb(252, 252, 218); */
+} /* termina reset*/
+
+body{
+    background-image: url(../imgs/degradado_1920x600.png); 
+    background-position: left;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+/*************** encabezado *******************/
+/* #logo{
+    float:right;
+    margin-right: 30px;
+    margin-top: 9px;
+} */
+
+
+/*******************************  SLIDER ***************************/
+#slider
+{
+    width: 100%;
+    height: 415px;
+    overflow: hidden;
+    background-image: url(../imgs/encabezado_nubes_1500x500.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    margin-top: 0px;
+    left: 0;
+}
+
+#slider_img
+{
+    margin-top: 130px;
+    display: inline;
+}
+
+#slider p
+{
+            color: #004d99;
+            text-shadow: #004d99 1.5px 1.5px 2.5px;
+            font-size: 40px;
+            text-align:center;
+            font-weight:bolder;
+            width: 150px;
+            float: right;
+            margin-top: 160px;
+            margin-right: 950px;
+            margin-left: auto;
+           
+            
+}
+
+/* SECCION CONTACTO */
+#content_contacto
+{
+    /* border: 1px solid black; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;    
+}
+
+#content_contacto h1
+{
+    color: #004d99;
+    font-family: 'Montserrat';
+    font-size: 2.8em;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    width: 400px;
+    text-shadow: #004d99 1.5px 1.5px 2.5px;
+}
+/* ARTICLES */
+
+.cajas
+{
+    font-family: 'Montserrat';
+    font-size: 17px;
+    letter-spacing: .5px;
+    display: inline-block;
+    margin-top: 10px;
+    width: 700px;
+    padding: 3px;
+}
+
+#content_form_contacto
+{
+    /* border: 1px solid green; */
+    width: 650px;
+    display: inline-block;
+    margin-top:30px;   
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+#content_info_contacto
+{
+    /* border: 1px solid brown; */
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 100px;
+    vertical-align: top;
+
+}
+
+.cajas h2
+{
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    font-size: 1.5em;
+    letter-spacing: .8px;
+    color: #004d99;
+     text-shadow: #004d99 1.5px 1.5px 2.5px;
+    text-align: center;
+    padding: 13px;
+    margin-bottom: 30px;
+    
+}
+
+#content_form_contacto form
+{
+    font-family: 'Montserrat';
+    /* font-size: 20px; */
+    font-weight: bold;
+    /* padding: 1.3em; */
+    vertical-align: top;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#form_contacto input, 
+#form_contacto textarea
+{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    background-color: rgba(173, 194, 197, .3);
+    width: 400px;
+    padding: 1.3em 2em;
+    margin: 10px;
+    margin-left: 85px;
+    margin-right: auto;
+
+}
+#form_contacto textarea
+{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#content_info_contacto p
+{
+    font-family: 'Montserrat';
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 7px;
+    
+
+}
+span
+{
+    font-weight: bold;
+}
+
+#form_contacto > table > tbody > tr:nth-child(6) > td > #btn_enviar
+{
+    cursor: pointer;
+    width: 200px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-left: 225px;
+}
+/*************************** UBICACION *******************/
+#ubicacion h2 {
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: .8px;
+    color: #004d99;
+    text-shadow: #004d99 1.5px 1.5px 2.5px;
+    text-align: center;
+    padding: 13px;
+    margin-bottom: 30px;
+}
+
+#mapa {
+	/* border: 1px solid navy; */
+	height:400px;
+    width:860px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#ubicacion h3{
+    font-weight: bolder;
+    color: #004d99;
+    margin-top: 10px;
+    /* margin-left: 50px; */
+    text-align: center;
+}
+#ubicacion{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 7px;
+}
+
+
+
+/***************************************** Estilos pie ************************************/
+footer{
+    margin-top: 50px;
+}
+.pie_contenedor{
+    overflow: hidden;
+    top: 0;
+    right: 0;
+}
+.pie__contenedor__item {
+    /* outline: 1px solid blue; */
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+.pie__contenedor__item::before {
+    content: "";
+    /* outline: 1px solid black;  */
+    width: 100%;
+    padding: 3.5% 0;
+    margin: 0;
+    position: absolute;
+   
+background: rgba(248,205,195,1);
+background: -moz-linear-gradient(left, rgba(248,205,195,1) 0%, rgba(255,255,255,1) 0%, rgba(119,170,242,1) 45%, rgba(74,142,237,1) 60%, rgba(0,0,0,1) 99%, rgba(0,0,0,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,205,195,1)), color-stop(0%, rgba(255,255,255,1)), color-stop(45%, rgba(119,170,242,1)), color-stop(60%, rgba(74,142,237,1)), color-stop(99%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
+background: -webkit-linear-gradient(left, rgba(248,205,195,1) 0%, rgba(255,255,255,1) 0%, rgba(119,170,242,1) 45%, rgba(74,142,237,1) 60%, rgba(0,0,0,1) 99%, rgba(0,0,0,1) 100%);
+background: -o-linear-gradient(left, rgba(248,205,195,1) 0%, rgba(255,255,255,1) 0%, rgba(119,170,242,1) 45%, rgba(74,142,237,1) 60%, rgba(0,0,0,1) 99%, rgba(0,0,0,1) 100%);
+background: -ms-linear-gradient(left, rgba(248,205,195,1) 0%, rgba(255,255,255,1) 0%, rgba(119,170,242,1) 45%, rgba(74,142,237,1) 60%, rgba(0,0,0,1) 99%, rgba(0,0,0,1) 100%);
+background: linear-gradient(to right, rgba(248,205,195,1) 0%, rgba(255,255,255,1) 0%, rgba(119,170,242,1) 45%, rgba(74,142,237,1) 60%, rgba(0,0,0,1) 99%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8cdc3', endColorstr='#000000', GradientType=1 );
+}
+.pie__contenedor__txt {
+    position: relative;
+    color:#004d99;
+    line-height: 1em;
+    left: 5%;
+    letter-spacing: 0.1em;
+    font-weight: bolder;
+    font-size: 1em;
+    padding: 1em;
+}
+label {
+    padding-left: 1em;
+}

@@ -1,0 +1,265 @@
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./docs/montserrat_[allfont.es].eot);
+}
+/******************************************** RESET ************************/
+/* html, body, div, h1, h2, h3, h4, h5, h6
+/* , form, table, caption, tbody, tfoot, thead, tr, th, td */
+/* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+/* termina reset*/
+
+html, body
+{
+    background-image: url(../img/body_web_1900x600.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: repeat-x; 
+    /* background-color: #f3e2c7; */
+    line-height: 1;
+    font-family: 'Montserrat';
+} 
+
+
+
+/**************************** SECCION CONTACTO ****************************/
+#content_contacto
+{
+    /* border: 1px solid black; */
+    width: 90%;
+    min-width: 800px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px; 
+    padding-top: 15px;
+    /* background-color: #f3e2c7; */
+}
+
+
+#content_contacto h1
+{
+   
+    font-family: 'Montserrat' !important;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow:  rgba(173, 194, 197, .6) 2px 2px 3px;
+    letter-spacing: .5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+/*** articles ***/
+
+.cajas
+{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    letter-spacing: .5px;
+    width: 700px;
+     padding: 3px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#content_form_contacto
+{
+    /* border: 1px solid green; */
+    width: 650px;
+    display: inline-block;
+    margin:30px 40px 30px 30px;
+
+}
+
+#content_info_contacto
+{
+    /* border: 1px solid brown; */
+    width: 390px;
+    margin: 30px 30px 30px 220px;
+    vertical-align: top;
+
+}
+
+.cajas h2
+{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: .5px;
+    text-shadow:  rgba(173, 194, 197, .6) 2px 2px 3px;
+    padding: 13px 10px 13px 20px;
+    margin-bottom: 30px;  
+}
+
+#content_form_contacto form
+{
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    width: 650px;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#formContacto > table > tbody > tr:nth-child(7) > td > input[type="date"]
+/* #fecha_contacto */
+{
+    text-decoration: none;
+}
+
+#formContacto input, 
+#formContacto textarea, 
+#fecha_contacto
+{
+    font-family: 'Montserrat';
+    font-weight: 70;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(208, 211, 212);
+    width: 400px;
+    padding: 1.3em 2em;
+    margin: 10px auto 10px 60px;
+    /* margin-bottom: 10px;
+    margin-left: 120px;
+    margin-right: auto; */
+
+}
+#formContacto textarea
+{
+    display: block;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#formContacto input:focus, #formContacto textarea:focus 
+{
+    /* border: 3px solid rgb(136, 69, 3); */
+	outline: none !important;
+	box-shadow: 5px 3px 30px  rgba(241, 197, 153, .4) !important;
+}
+
+#formContacto > table > tbody > tr:nth-child(11) > td > label
+ /* td label */
+{
+    padding-left: 100px;
+}
+
+#content_info_contacto p
+{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+#formContacto > table > tbody > tr:nth-child(13) > td > label
+/* label #texterminos */
+{
+    float: left;
+    margin-top: 8px;
+    padding-right:0 ;
+    margin-right: 0;
+    padding-left: 100px;
+   
+} 
+#formContacto > table > tbody > tr:nth-child(13) > td  > input[type="radio"]
+/* td #terminos */
+{
+    margin-left: -190px;
+    float: right;
+    /* margin-top: 3px; */
+    
+} 
+
+#formContacto #boton_enviar, 
+#formContacto #boton_borrar
+{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    width: 25%;
+    padding: 5px;
+    margin: 10px  0 0 110px ;
+    /* border: 1px solid rgba(102,51,0,1); */
+}
+#boton_enviar:focus
+{
+    border: 1px solid rgba(102,51,0,1);
+    /* background: rgb(228, 148, 68); */
+    color: #663300;
+    background: whitesmoke;
+    transition: all 0.3s ease;
+}
+
+#boton_borrar:focus
+{
+    border: 1px solid rgba(102,51,0,1);
+    /* background: brown; */
+    color: #663300;
+    background: whitesmoke;
+    transition: all 0.3s ease;
+    
+}
+
+#boton_enviar:hover,
+#boton_borrar:hover
+{
+   transition: all 0.3s ease-in-out;
+    padding: 0.1px;
+    font-size: 12px; 
+}
+/* estilos validacion formulario */
+.ok
+{
+    /* border: 3px solid green ; */
+    text-shadow: rgb(157, 238, 157) 2px 2px 3px;
+    box-shadow: rgb(157, 238, 157)4px 4px 7px; 
+   
+
+}
+.error
+{
+    /* border: 1px solid brown; */
+    text-shadow: rgb(235, 167, 167) 2px 2px 3px;
+      
+}
+
+
+/* .error1, .error2, .error3, .error4, .error5, .error6, .error7, .error8 */
+.errorInput
+{
+   box-shadow: rgb(247, 166, 166) 3px 3px 5px;
+   text-shadow: rgb(235, 167, 167) 2px 2px 3px; 
+   border: 1px solid brown !important;
+
+}
+
+#mensajeNombre, 
+#mensajeTelefono, 
+#mensajeEmail, 
+#mensajeFecha, 
+#mensajeConsulta, 
+#mensajeMensaje, 
+#mensajeTerminos
+{
+    color: brown;
+    width: 410px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 80px;
+  
+}

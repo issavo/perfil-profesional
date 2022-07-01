@@ -1,0 +1,197 @@
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(../montserrat_[allfont.es].eot);
+}
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    background-image: url(../imgs/degradado_1920x600.png); 
+    background-position: left;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+
+
+/* SECCIÓN ENLACES */
+
+.contenedor__enlaces
+{
+    position: relative;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+h2 {
+    font-family: 'Montserrat';
+    text-align: left;
+    font-weight: bolder;
+    font-size: 2em;
+    letter-spacing: 0.06em;
+    margin-top: 0;    
+}
+
+/* ENLACE1 */
+
+.contenedor__enlaces__1__item__1__titulo, 
+.contenedor__enlaces__2__item__2__titulo, 
+.contenedor__enlaces__3__item__3__titulo 
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 3em !important;
+}
+.contenedor__enlaces__1__item__1 p 
+{
+    position: relative;
+    font-family: 'Montserrat';
+    text-align: justify;
+    width: 91%;
+    margin-left: 5%;
+    margin-bottom: 0;
+
+}
+
+.contenedor__enlaces__1__item__1__img {
+    margin-left: 500px;
+    margin-right: auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    
+}
+
+
+/* ENLACE2 */
+
+.contenedor__enlaces__2__item__2 {
+    position: relative; 
+    margin: 0;
+    width: 100%;
+}
+.contenedor__enlaces__2__item__2 p  {
+    position: relative;
+    display: inline-block;
+    font-family: 'Montserrat';
+    text-align: justify;
+    width: 65%;  
+    /* margin-left: 2%;*/  
+    margin-left: 5%;
+}
+
+.contenedor__enlaces__2__item__2__img{
+    position: absolute;
+    display: inline;
+    /* margin: 1.5% 0 90% 2%; */
+    left: 75%;
+    right: auto;
+} 
+/* .contenedor__enlaces__2__item__2__titulo{
+    margin-bottom: 0;
+    margin-left: 22px;
+    margin-top: 22px;
+} */
+
+/* VIDEO */
+#contenedor_video_item
+{
+    position: relative;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+
+
+}
+
+#contenedor_video_titulo
+{
+    margin-bottom: 0;
+    margin-left: 22px;
+    margin-top: 22px;
+}
+
+/* Modificación de los estilos de un video */
+
+#contenedor_video
+{
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 550px;
+    margin-right: auto;
+    background: transparent;
+    padding: 7px;
+    border: 2px solid #363657;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+/****** Botonera personalizada *****/
+/* Prescindir del atributo controls en la etiqueta video*/
+/* Añadir una botonera acontinuación del video  */
+#botonera
+{
+    
+    margin: 8px 50px;
+    background: transparent;
+    width: 800px;
+}
+
+#contenedor_video_botones
+{
+    float: left;
+    width: 100px;
+    height: 20px;
+    
+}
+
+/* BOTÓN */
+#reproducir
+{
+    top: 100px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background:#363657; 
+    color: white;
+    cursor: pointer;
+    
+
+}
+#reproducir:hover
+{
+    background: white;
+    color: #363657;
+    cursor: pointer;
+    text-transform: all ease 0.3s;
+}
+
+#barra_progreso
+{
+    background-color: white;
+    width: 600px;
+    height: 16px;
+    border: 2px solid #363657;
+    padding: 3px;
+    margin-left: 65px;
+    margin-bottom: 5px;
+}
+
+#progreso
+{
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    background: #363657;
+}
+
+
+

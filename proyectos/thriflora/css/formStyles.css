@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+main {
+	font-family: 'Monserrat';
+	max-width: 700px;
+	width: 90%;
+	margin: 150px auto 300px auto;
+	padding: 50px 60px;
+}
+
+.form {
+	box-shadow: 7px 10px 15px #bcc862;
+	z-index: 1;
+	padding: 25px;
+	background-color: #678420;
+	
+}
+
+.form__label {
+	font-family: 'Montserrat';
+	display: block;
+	font-weight: 700;
+	padding: 10px;
+	font-size: 18px;
+	
+}
+
+.form__label__checkbox {
+	padding: 3% 0;
+}
+
+.form__group-input {
+	text-align: end;	
+}
+
+.form__input {
+	width: 100%;
+	background-color: #f4ffe6;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+}
+
+.form__input:focus {
+	border: 3px solid #678420;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+
+/* Button */
+
+.form__group-btn-send {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form__btn {
+	padding: 5px;
+	height: 45px;
+	line-height: 1px;
+	width: 40%;
+	background: transparent;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	border: 1px solid ;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+.form__btn:hover {
+	box-shadow: 3px 0px 5px #bcc862;
+	border: 3px solid #678420;
+	border-radius: 3px;
+	background-color: white;
+	color: #678420;
+	letter-spacing: 0.3;
+	line-height: 35px;
+	font-weight: 600;
+}
