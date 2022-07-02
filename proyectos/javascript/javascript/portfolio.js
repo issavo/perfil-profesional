@@ -17,9 +17,6 @@ $(document).ready(function () {
             500,function () {
               for (var i = 0; i < textos.length; i++) {
                 $(textos[i]).show(500);
-                // $(this).animate({
-
-                //});
               } //termina for
 
               //delay realiza una pausa en el efecto

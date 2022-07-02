@@ -1,0 +1,96 @@
+@font-face 
+{
+    font-family: 'Montserrat';
+    src: url(montserrat_[allfont.es].eot);
+}
+
+html, body
+{
+   
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background:  #F4F4F4;
+}
+
+
+#portfolio
+{
+    overflow: hidden;
+    width: 100%;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+#portfolio h1
+{
+    font-family: 'Montserrat' !important;
+    text-align: justify;
+    font-size: 35px;
+    font-weight: bolder;
+    text-shadow:  rgba(173, 194, 197, .6) 2px 2px 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 5px; 
+    letter-spacing: .5px;
+    width: 300px;
+    
+}
+
+#contenedor_portfolio
+{
+    overflow: hidden;
+    width: 100%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+#contenedor_portfolio p
+{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px 10px;   
+}
+#imagen_1
+{
+    width: 40%; /*para articles usar medidas absolutas */
+    height: 300px;
+    margin: 65px 14px 100px 10px;
+    display: inline-block;
+    vertical-align: top; /* se colocan en vertical*/
+    cursor: pointer;  
+}
+
+#imagen_0, #imagen_2, #imagen_3, #imagen_4, #imagen_5, #imagen_6,  #imagen_7,  #imagen_8,  #imagen_9
+{
+    width: 30%; /*para articles usar medidas absolutas */
+    height: 300px;
+    margin: 65px 14px 150px 10px;
+    display: inline-block;
+    vertical-align: top; /* se colocan en vertical*/
+    cursor: pointer;  
+}
+
+
+/* Menu encabezado */
+#contenedor_encabezado
+{
+    right: 16.85px;
+}
+
+/* Pie */
+footer
+{
+    margin-top: 50px;
+}

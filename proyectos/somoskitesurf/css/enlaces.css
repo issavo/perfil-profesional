@@ -4,8 +4,7 @@
     src: url(../montserrat_[allfont.es].eot);
 }
 
-body 
-{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat';
@@ -20,8 +19,7 @@ body
 
 /* SECCIÓN ENLACES */
 
-.contenedor__enlaces
-{
+.contenedor__enlaces {
     position: relative;
     display: block;
     margin: auto;
@@ -42,21 +40,19 @@ h2 {
 
 .contenedor__enlaces__1__item__1__titulo, 
 .contenedor__enlaces__2__item__2__titulo, 
-.contenedor__enlaces__3__item__3__titulo 
-{
+.contenedor__enlaces__3__item__3__titulo {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 3em !important;
 }
-.contenedor__enlaces__1__item__1 p 
-{
+
+.contenedor__enlaces__1__item__1 p {
     position: relative;
     font-family: 'Montserrat';
     text-align: justify;
     width: 91%;
     margin-left: 5%;
     margin-bottom: 0;
-
 }
 
 .contenedor__enlaces__1__item__1__img {
@@ -67,7 +63,6 @@ h2 {
     
 }
 
-
 /* ENLACE2 */
 
 .contenedor__enlaces__2__item__2 {
@@ -75,42 +70,33 @@ h2 {
     margin: 0;
     width: 100%;
 }
+
 .contenedor__enlaces__2__item__2 p  {
     position: relative;
     display: inline-block;
     font-family: 'Montserrat';
     text-align: justify;
     width: 65%;  
-    /* margin-left: 2%;*/  
     margin-left: 5%;
 }
 
-.contenedor__enlaces__2__item__2__img{
+.contenedor__enlaces__2__item__2__img {
     position: absolute;
     display: inline;
-    /* margin: 1.5% 0 90% 2%; */
     left: 75%;
     right: auto;
 } 
-/* .contenedor__enlaces__2__item__2__titulo{
-    margin-bottom: 0;
-    margin-left: 22px;
-    margin-top: 22px;
-} */
 
 /* VIDEO */
-#contenedor_video_item
-{
+
+#contenedor_video_item {
     position: relative;
     display: block;
     margin: auto;
     overflow: hidden;
-
-
 }
 
-#contenedor_video_titulo
-{
+#contenedor_video_titulo {
     margin-bottom: 0;
     margin-left: 22px;
     margin-top: 22px;
@@ -118,8 +104,7 @@ h2 {
 
 /* Modificación de los estilos de un video */
 
-#contenedor_video
-{
+#contenedor_video {
     width: 800px;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -137,25 +122,21 @@ h2 {
 /****** Botonera personalizada *****/
 /* Prescindir del atributo controls en la etiqueta video*/
 /* Añadir una botonera acontinuación del video  */
-#botonera
-{
+#botonera {
     
     margin: 8px 50px;
     background: transparent;
     width: 800px;
 }
 
-#contenedor_video_botones
-{
+#contenedor_video_botones {
     float: left;
     width: 100px;
-    height: 20px;
-    
+    height: 20px;   
 }
 
 /* BOTÓN */
-#reproducir
-{
+#reproducir{
     top: 100px;
     font-family: 'Montserrat';
     font-weight: 600;
@@ -163,19 +144,16 @@ h2 {
     background:#363657; 
     color: white;
     cursor: pointer;
-    
-
 }
-#reproducir:hover
-{
+
+#reproducir:hover {
     background: white;
     color: #363657;
     cursor: pointer;
     text-transform: all ease 0.3s;
 }
 
-#barra_progreso
-{
+#barra_progreso {
     background-color: white;
     width: 600px;
     height: 16px;
@@ -185,8 +163,7 @@ h2 {
     margin-bottom: 5px;
 }
 
-#progreso
-{
+#progreso {
     position: absolute;
     width: 0px;
     height: 16px;

@@ -1,0 +1,95 @@
+@font-face 
+{
+    font-family: 'Montserrat';
+    src: url(montserrat_[allfont.es].eot);
+}
+
+html,
+body
+{
+    margin: 0;
+    padding: 0;
+    background:  #F4F4F4 !important;
+    
+}
+
+.secciones
+{
+    background:  #F4F4F4;
+}
+#contenedor_inicio
+{
+    
+    
+    overflow: hidden; 
+    width: 100%;
+    min-width: 800px;
+    position: block;
+    z-index: 1; 
+}
+#contenedor_inicio img
+{
+    width: 100%;
+   
+}
+
+/* MENSAJE */
+#contenedor_inicio2
+{
+    /* outline: 1px solid black; */
+    left: 500px;
+    right: auto;
+    top: 80px;
+    position: absolute;
+    z-index: 2;
+    padding: 10px;
+    font-size: 22px; 
+    width: 40%; 
+    
+}
+
+#contenedor_inicio2 p
+{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 5px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+/* titulo noticias */
+h3
+{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow:  rgba(173, 194, 197, .6) 2px 2px 3px;
+    letter-spacing: .5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 180px;
+}
+
+.col-md-8,
+h3
+{
+    position: sticky !important;
+    z-index: -100;
+}
+
+#listado_noticias 
+{
+   width: 200px;
+}
+
+#listado_noticias li a
+{
+    display: inline-block;
+}

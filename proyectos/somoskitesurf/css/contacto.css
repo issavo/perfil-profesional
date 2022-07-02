@@ -1,16 +1,9 @@
-/****************  Encabezado importado*****************************/
-
-/* @import url(encabezado.css); */
-
-/*************** menu horizontal importado ***********************/
-/* @import url(nav_horizontal.css); */
-
 
 @font-face {
     font-family: 'Montserrat', sans-serif;
     src: url(../montserrat_[allfont.es].eot);
 }
-/******************************************** RESET ************************/
+/******************************************** RESET *********************/
 html, body, div, h1, h2, h3, h4, h5, h6, form, table, caption, tbody, tfoot, thead, tr, th, td{
     margin: 0;
 	padding: 0;
@@ -19,28 +12,20 @@ html, body, div, h1, h2, h3, h4, h5, h6, form, table, caption, tbody, tfoot, the
 	font: inherit;
 	vertical-align: baseline;
 }
-html, body{
+html, body {
     line-height: 1;
-    /* background-color: rgb(252, 252, 218); */
-} /* termina reset*/
+}
+/************************************** termina reset ******************/
 
-body{
+body {
     background-image: url(../imgs/degradado_1920x600.png); 
     background-position: left;
     background-size: cover;
     background-repeat: repeat-x;
 }
-/*************** encabezado *******************/
-/* #logo{
-    float:right;
-    margin-right: 30px;
-    margin-top: 9px;
-} */
 
-
-/*******************************  SLIDER ***************************/
-#slider
-{
+/***  SLIDER ***/
+#slider {
     width: 100%;
     height: 415px;
     overflow: hidden;
@@ -51,14 +36,12 @@ body{
     left: 0;
 }
 
-#slider_img
-{
+#slider_img {
     margin-top: 130px;
     display: inline;
 }
 
-#slider p
-{
+#slider p {
             color: #004d99;
             text-shadow: #004d99 1.5px 1.5px 2.5px;
             font-size: 40px;
@@ -68,23 +51,18 @@ body{
             float: right;
             margin-top: 160px;
             margin-right: 950px;
-            margin-left: auto;
-           
-            
+            margin-left: auto;          
 }
 
 /* SECCION CONTACTO */
-#content_contacto
-{
-    /* border: 1px solid black; */
+#content_contacto {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;    
 }
 
-#content_contacto h1
-{
+#content_contacto h1 {
     color: #004d99;
     font-family: 'Montserrat';
     font-size: 2.8em;
@@ -99,8 +77,7 @@ body{
 }
 /* ARTICLES */
 
-.cajas
-{
+.cajas {
     font-family: 'Montserrat';
     font-size: 17px;
     letter-spacing: .5px;
@@ -110,9 +87,7 @@ body{
     padding: 3px;
 }
 
-#content_form_contacto
-{
-    /* border: 1px solid green; */
+#content_form_contacto {
     width: 650px;
     display: inline-block;
     margin-top:30px;   
@@ -122,9 +97,7 @@ body{
 
 }
 
-#content_info_contacto
-{
-    /* border: 1px solid brown; */
+#content_info_contacto {
     width: 400px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -134,8 +107,7 @@ body{
 
 }
 
-.cajas h2
-{
+.cajas h2 {
     font-family: 'Montserrat';
     font-weight: bolder;
     font-size: 1.5em;
@@ -144,16 +116,12 @@ body{
      text-shadow: #004d99 1.5px 1.5px 2.5px;
     text-align: center;
     padding: 13px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;  
 }
 
-#content_form_contacto form
-{
+#content_form_contacto form {
     font-family: 'Montserrat';
-    /* font-size: 20px; */
     font-weight: bold;
-    /* padding: 1.3em; */
     vertical-align: top;
     width: 650px;
     margin-left: auto;
@@ -161,8 +129,7 @@ body{
 
 }
 #form_contacto input, 
-#form_contacto textarea
-{
+#form_contacto textarea {
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: 18px;
@@ -175,15 +142,13 @@ body{
     margin-right: auto;
 
 }
-#form_contacto textarea
-{
+#form_contacto textarea {
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: 18px;
 }
 
-#content_info_contacto p
-{
+#content_info_contacto p {
     font-family: 'Montserrat';
     text-align: justify;
     margin-bottom: 10px;
@@ -191,13 +156,11 @@ body{
     
 
 }
-span
-{
+span {
     font-weight: bold;
 }
 
-#form_contacto > table > tbody > tr:nth-child(6) > td > #btn_enviar
-{
+#form_contacto > table > tbody > tr:nth-child(6) > td > #btn_enviar {
     cursor: pointer;
     width: 200px;
     padding-top: 10px;
@@ -220,21 +183,19 @@ span
 }
 
 #mapa {
-	/* border: 1px solid navy; */
 	height:400px;
     width:860px;
     margin-left: auto;
     margin-right: auto;
-
 }
-#ubicacion h3{
+
+#ubicacion h3 {
     font-weight: bolder;
     color: #004d99;
     margin-top: 10px;
-    /* margin-left: 50px; */
     text-align: center;
 }
-#ubicacion{
+#ubicacion {
     font-family: 'Montserrat';
     font-weight: bold;
     text-align: center;
@@ -247,16 +208,15 @@ span
 
 
 /***************************************** Estilos pie ************************************/
-footer{
+footer {
     margin-top: 50px;
 }
-.pie_contenedor{
+.pie_contenedor {
     overflow: hidden;
     top: 0;
     right: 0;
 }
 .pie__contenedor__item {
-    /* outline: 1px solid blue; */
     overflow: hidden;
     width: 100%;
     margin: 0;
@@ -264,7 +224,6 @@ footer{
 }
 .pie__contenedor__item::before {
     content: "";
-    /* outline: 1px solid black;  */
     width: 100%;
     padding: 3.5% 0;
     margin: 0;
@@ -279,6 +238,7 @@ background: -ms-linear-gradient(left, rgba(248,205,195,1) 0%, rgba(255,255,255,1
 background: linear-gradient(to right, rgba(248,205,195,1) 0%, rgba(255,255,255,1) 0%, rgba(119,170,242,1) 45%, rgba(74,142,237,1) 60%, rgba(0,0,0,1) 99%, rgba(0,0,0,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8cdc3', endColorstr='#000000', GradientType=1 );
 }
+
 .pie__contenedor__txt {
     position: relative;
     color:#004d99;

@@ -28,15 +28,13 @@
     width: 170px;
     height: 110px;
 }
-/* Para que se vean todas las imagenes en un primer momento crearemos una opacidad con una 2ª clase. Las fotos seran mas opacas de los extremos hacia el interior del carrusell */
+
 .op50
 {
-/* se lica a los extremos */
     opacity: 0.5;
 }
 .op75
 {
-/* se lica a las mas internas */
     opacity: 0.75;
 }
 .desplazar

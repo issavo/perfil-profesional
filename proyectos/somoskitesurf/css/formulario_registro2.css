@@ -1,8 +1,5 @@
 /***************** encabezado *******************/
 
-/* @import url(encabezado.css); */
-
-
 @font-face {
     font-family: 'Montserrat', sans-serif;
     src: url(../montserrat_[allfont.es].eot);
@@ -23,106 +20,10 @@ body {
     background-size: cover;
 	
 }
-/* .menu_navegacion ul{
-    padding: 0;
-} */
-
-/* Estilos comunes a todos los elementos */
-/* margin y pading son cero para que la propiedad box-sizing ocupe todo el ancho del margin y el padding.*/
-
-    
-/************************************* Encabezado ********************************************/
-
-/*************** menu vertical *****************/
-/* #contenedor_nav{
-    margin: -20px;
-}
-
-
-.menu_navegacion{
-    font-size: 20px;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Montserrat';
-    font-weight: bolder;
-    color: #004d99;
-    display: inline-block;
-    width: 130px;
-}
-
-.menu_navegacion ul{
-    border: 2px solid navy;
-    width: 157px;
-    position: absolute; 
-    float: right;
-    padding-right: 5px;
-    background-image: url(../imgs/degradado_1920x600.png);
-    background-position: top;
-    background-repeat: repeat-y; */
-    /* left: 0; */
-    /* right: 9px;
-    top: 85.5px;  
-    list-style: none;
-    z-index: 100; 
-
-}
-.menu_navegacion li{
-    border: 1px solid navy; */
-    /* margin-top: -20px; */
-    /* width: 153px;
-    padding: 7px ;
-    text-align: center;
-}
-
-.menu_navegacion a{
-    background-color: transparent;
-    margin-bottom: 5px 2px;
-    width: 130px;
-    padding: 5px;
-    text-decoration: none;
-    
-}
-.menu_navegacion a:hover{
-    background-image: url(../imgs/degradado_1920x600.png);
-    background-position: right;
-    background-repeat: repeat-x;
-    background-size: cover;
-    color: navy;
-    background-color: white;
-    font-weight: bolder;
-    transition: .4;
-}
-.menu_navegacion li:hover, #menu_boton:hover{
-    background-image: url(../imgs/degradado_1920x600.png);
-    background-position: right;
-    background-repeat: repeat-x;
-    background-size: cover;
-    transition: .4;
-    color: navy;
-} */
-/************************ menu deslizante ************************/
-/* #menu_boton{
-    border-color: 2px solid navy;
-    /* background-image: url(../imagenes/degradado_1920x600.png); */
-    /* background-position: center;
-    background-repeat: repeat-y;
-    background-color: #e6ffff; 
-    width: 159px;
-    color: #004d99;
-    font-family: 'Montserrat';
-    font-weight: bolder;
-    font-size: 20px;
-    padding: 7px;
-    margin-top: 20px;
-    margin-left: 1108px;
-    right: 9px;
-    
-} */ 
 
 /* FORMULARIO REGISTRO */
 
-main 
-{
+main {
 	font-family: 'Monserrat';
 	max-width: 800px;
 	width: 90%;
@@ -130,8 +31,7 @@ main
 	padding: 50px;
 }
 
-.formulario 
-{
+.formulario {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
@@ -141,8 +41,7 @@ main
 	
 }
 
-.formulario__label 
-{
+.formulario__label {
 	font-family: 'Montserrat';
 	display: block;
 	font-weight: 700;
@@ -150,14 +49,12 @@ main
 	
 }
 
-.formulario__grupo-input 
-{
+.formulario__grupo-input {
 	position: relative;
 	
 }
 
-.formulario__input 
-{
+.formulario__input {
 	width: 100%;
 	background-color: #e6ffff;
 	border: 3px solid transparent;
@@ -168,27 +65,23 @@ main
 	transition: .3s ease all;
 }
 
-.formulario__input:focus 
-{
+.formulario__input:focus {
 	border: 3px solid #004d99;
 	outline: none;
 	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
 }
 
-.formulario__input-error 
-{
+.formulario__input-error {
 	font-size: 12px;
 	margin-bottom: 0;
 	display: none;
 }
 
-.formulario__input-error-activo 
-{
+.formulario__input-error-activo {
 	display: block;
 }
 
-.formulario__validacion-estado 
-{
+.formulario__validacion-estado {
 	position: absolute;
 	right: 10px;
 	bottom: 15px;
@@ -197,22 +90,17 @@ main
 	opacity: 0;
 }
 
-.formulario__checkbox 
-{
+.formulario__checkbox {
 	margin-right: 10px;
 }
 
-
-
 .formulario__grupo-terminos, 
 .formulario__mensaje,
-.formulario__grupo-btn-enviar 
-{
+.formulario__grupo-btn-enviar {
 	grid-column: span 2;
 }
 
-.formulario__mensaje 
-{
+.formulario__mensaje {
 	height: 45px;
 	line-height: 45px;
 	background: brown;
@@ -221,32 +109,28 @@ main
 	display: none;
 }
 
-.formulario__mensaje-activo 
-{
+.formulario__mensaje-activo {
 	display: block;
 }
 
-.formulario__mensaje p 
-{
+.formulario__mensaje p {
 	margin: 0;
 	font-family: 'Montserrat';
 }
+
 /* BOTÓN */
 
-.formulario__grupo-btn-enviar 
-{
+.formulario__grupo-btn-enviar {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.formulario__btn 
-{
+.formulario__btn {
 	height: 45px;
 	line-height: 45px;
 	width: 30%;
 	background: transparent;
-	/* color: #004d99; */
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bolder;
 	border: 1px solid ;
@@ -255,45 +139,38 @@ main
 	transition: .1s ease all;
 }
 
-.formulario__btn:hover 
-{
+.formulario__btn:hover {
 	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
 	border: 3px solid #004d99;
 	border-radius: 3px;
 }
 
-.formulario__mensaje-exito 
-{
+.formulario__mensaje-exito {
 	font-size: 14px;
 	color: #119200;
 	display: none;
 }
 
-.formulario__mensaje-exito-activo 
-{
+.formulario__mensaje-exito-activo {
 	display: block;
 }
 
 /* Estilos Validacion */
-.formulario__grupo-correcto .formulario__validacion-estado 
-{
+.formulario__grupo-correcto .formulario__validacion-estado {
 	color: #1ed12d;
 	opacity: 1;
 }
 
-.formulario__grupo-incorrecto .formulario__label 
-{
+.formulario__grupo-incorrecto .formulario__label {
 	color: #bb2929;
 }
 
-.formulario__grupo-incorrecto .formulario__validacion-estado 
-{
+.formulario__grupo-incorrecto .formulario__validacion-estado {
 	color: #bb2929;
 	opacity: 1;
 }
 
-.formulario__grupo-incorrecto .formulario__input 
-{
+.formulario__grupo-incorrecto .formulario__input {
 	border: 3px solid #bb2929;
 }
 

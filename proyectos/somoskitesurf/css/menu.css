@@ -1,27 +1,22 @@
 
-@font-face 
-{
+@font-face {
     font-family: 'Montserrat';
     src: url(../docs/montserrat_[allfont.es].eot);
 }
-.encabezado
-{
+.encabezado{
     overflow: hidden;
     background-image: url(../imgs/degradado_1920x600.png); 
     background-size: cover; 
     top: 0;
     right: 0;
 }
-.encabezado__item 
-{
-    /* border: 1px solid blue; */
+.encabezado__item {
     overflow: hidden;
     background-image: url(../imgs/degradado_1920x600.png);
     background-size: cover;
     height: 70px;
 }
-#logo
-{
+#logo {
     position: relative;
     width: 50px;
     top: 12px;
@@ -29,9 +24,7 @@
     padding-bottom: 10px;
 }
 
-
-.encabezado__txt 
-{
+.encabezado__txt {
     position: absolute;
     font-family: 'Montserrat';
     text-shadow: #004d99 1.5px 1.5px 2.5px;
@@ -47,9 +40,7 @@
 
 
 /****** NAV ENLACES ********/
-nav
-{
-    /* border: 2px solid green; */
+nav {
     font-family: 'Montserrat';
     width: 800px;
     margin-left: auto;
@@ -58,10 +49,7 @@ nav
     top: -50px;
 }
 
-
-.lista_enlaces
-{
-    /* border: 1px solid brown; */
+.lista_enlaces {
     width: 900px;
     text-decoration: none; 
     margin-top: -45px;
@@ -70,19 +58,14 @@ nav
     vertical-align: top;
     padding: 0;
     text-transform: uppercase; 
-    letter-spacing: 0.2px;
-    
-   
+    letter-spacing: 0.2px; 
 }
-.menu_navegacion
-{
-   
+
+.menu_navegacion {
     background-color: transparent;
 }
 
-#lista > li
-{
-    /* border: 1px solid black; */
+#lista > li {
     background-color: transparent;
     position: relative;
     display: inline-block;
@@ -91,11 +74,9 @@ nav
     margin-bottom: 5px;
     margin-right: 10px;
     transition: .4;
-  
 }
 
-#lista  a
-{
+#lista  a {
     font-weight: bolder;
     font-family: 'Montserrat';
     font-size: 16px;
@@ -104,16 +85,12 @@ nav
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
-    padding-right: 10px;
-   
+    padding-right: 10px; 
 }
 
-
-#lista  a:hover
-{
+#lista  a:hover {
     text-decoration: none;
     color: white;
     background-color: transparent;
-    transition: all ease 0.4s;
-    
+    transition: all ease 0.4s; 
 }

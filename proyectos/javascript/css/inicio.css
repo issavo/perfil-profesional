@@ -1,23 +1,14 @@
-/* @font-face 
-{
-    font-family: 'Montserrat';
-    src: url(./docs/montserrat_[allfont.es].eot);
-} */
 
-html, body
-{
+html, body {
     background-image: url(../img/body_web_1900x600.png);
     background-position: left;
     background-size: cover;
     background-repeat: repeat-x; 
     margin: 0;
-    padding: 0;
-    /* background-color: #f3e2c7 !important; */
-    
+    padding: 0;   
 }
 
-#contenedor_inicio
-{
+#contenedor_inicio {
     background-color: #f3e2c7;
     overflow: hidden; 
     width: 100%;
@@ -25,16 +16,13 @@ html, body
     position: relative;
     z-index: 1; 
 }
-#contenedor_inicio img
-{
+
+#contenedor_inicio img {
     width: 100%;
     background-color: #f3e2c7;
 }
 
-#contenedor_inicio2
-{
-    /* outline: 1px solid black; */
-    /* background-color: rgba(243, 237, 237, .4); */
+#contenedor_inicio2 {
     left: 350px;
     right: auto;
     top: 50px;
@@ -45,8 +33,7 @@ html, body
     width: 50%;  
 }
 
-#contenedor_inicio2 p
-{
+#contenedor_inicio2 p {
     margin-top: 30px;
     margin-bottom: 5px;
     text-align: center;

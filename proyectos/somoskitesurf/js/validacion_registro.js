@@ -48,29 +48,14 @@ function validarFormulario(e){//recibe como parametro el objeto formulario
 
 }//termina validarFormulario
 
-
-/* Para optimizar el codigo creamos la funcion validar codigo y la llamamos desde el switch
-        //validacion del campo
-            if(expresiones.usuario.test(e.target.value)){
-                document.getElementById('grupo__usuario').classList.remove('formulario__grupo-incorrecto');//elimina la clase
-                document.getElementById('grupo__usuario').classList.add('formulario__grupo-correcto');//añade la clase
-        // querySelector -> accede a un elemento, recibe como parametro el id del campo 
-                document.querySelector('#grupo__usuario').classList.remove('fa-times-circle');//quita icono circulo
-                document.querySelector('#grupo__usuario').classList.add('fa-check-circle');//añade icono check
-            document.querySelector('#grupo__usuario .formulario__input-error').classList.remove('formulario__input-error-activo');//quita el texto
-            }else {
-                document.getElementById('grupo__usuario').classList.add('formulario__grupo-incorrecto');
-                document.getElementById('grupo__usuario').classList.remove('formulario__grupo-correcto');
-                document.querySelector('#grupo__usuario').classList.add('fa-times-circle');//añade icono circulo
-                document.querySelector('#grupo__usuario').classList.remove('fa-check-circle');//quita icono check
-            document.querySelector('#grupo__usuario .formulario__input-error').classList.add('formulario__input-error-activo');//muestra el texto
-            }//termina if*/
+       
 /* creamos la funcion validarCampo para optimizar la validacion, cada campo tiene una peculiaridad:
 recibe 3 argumentos para validar segun el campo:
     -expresion -> sustituye a expresiones.usuario, para accader a la expresion de cada campo
     -input -> sustituye a e.target, para acceder al valor de cada input correspondiente a cada campo
     -campo -> sustituye  a grupo__usuario por `grupo__${campo}`, para pasar la variable campo
     se sustituye la (') por el acento (`) */
+    
 function validarCampo(expresion, input, campo){
     if (expresion.test(input.value)) {
         document.getElementById(`grupo__${campo}`).classList.remove(`formulario__grupo-incorrecto`);//elimina la clase

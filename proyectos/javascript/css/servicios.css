@@ -4,8 +4,7 @@
 }
 
 html,
-body
-{
+body {
     background-image: url(../img/body_web_1900x600.png);
     background-position: left;
     background-size: cover;
@@ -15,23 +14,19 @@ body
 }
 
 /* SECTION SERVICIOS  */
-#section_servicios
-{
-    /* border: 1px solid black; */
+#section_servicios {
     font-family: 'Montserrat';
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 15px 20px 50px 20px;
-    
+    padding: 15px 20px 50px 20px;  
 }
 
 /* TITULO SECCION */
 
-#section_servicios h1
-{
+#section_servicios h1 {
     font-size: 35px;
     font-weight: bolder;
     text-align: center;
@@ -43,9 +38,7 @@ body
     margin-bottom: 180px;
 }
 
-#section_servicios .container
-{
-    /* border: 1px solid brown; */
+#section_servicios .container {
     width: 20%; /*para articles usar medidas absolutas */
     height: 350px;
     margin: 20px;
@@ -55,16 +48,15 @@ body
     margin-right: auto;
     margin-bottom: 100px;
     padding: 15px;
-
 }
-#section_servicios > div.container > div > i
-{
+
+#section_servicios > div.container > div > i {
     color: #663300;
     margin-left: 90px; 
     margin-right: auto; 
 }
-#section_servicios > div.container > div > h4
-{
+
+#section_servicios > div.container > div > h4 {
    font-family: Helvetica; 
    font-size: 18px;
    font-style: italic;
@@ -74,18 +66,12 @@ body
    padding: 2px;
 
 }
-/* #section_servicios > div.container > div
-{
-    border: 1px solid blue;
-} */
-#section_servicios > div.container > div > p
-{
+
+#section_servicios > div.container > div > p {
     font-family: Helvetica;
     font-size: 13.5px;
     font-weight: 200;
     line-height: 17px;
     width: 250px;
     padding-left: 40px;
-    /* border: 1px solid brown; */
-
 }

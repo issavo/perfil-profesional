@@ -13,7 +13,6 @@ function moverIzq() {
     //indicamos a img1 el origen, que es imagen2 y la ruta de img1 se pierde. Asi con las demas
     document.getElementById('img2').src = document.getElementById('img3').src;
     document.getElementById('img3').src = document.getElementById('img4').src;
-    // document.getElementById('img4').src = document.getElementById('img5').src; 
     //llegados a este punto (img4) se crea un bucle y muestra la misma img5 en todas las posiciones. porque img5 no existe
     //Para solucionarlo haremos en el ultimo
     document.getElementById('img4').src = imagen5;

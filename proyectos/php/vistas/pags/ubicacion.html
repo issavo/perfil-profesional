@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../inicio/img/logo.png" type="image/x-icon">
+    <meta name="author" content="Sonia O">
+    <title>PHP - Ubicacion </title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../inicio/css/ubicacion.css">  
+    <link rel="stylesheet" href="../inicio/css/menu.css">  
+    <link rel="stylesheet" href="../inicio/css/pie.css"> 
+    <!-- FONTANWESOME CSS -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+<body>
+     <header class="header">
+        <nav>
+            <div id="contenedor_encabezado">
+                <a href="../../inicio2.php"> <img id="logo" src="../inicio/img/logo.png" alt="logo manos"> </a>
+                <a id="boton">Pages</a>
+                <ul id="menu_nav">
+                    <li> <a class="menu" href="../../inicio2.php"> Inicio</a></li>
+                    <li> <a class="menu " href="../../proyectos.php"> Proyectos</a></li>
+                    <li><a class="menu" href="portfolio.html">Porfolio</a></li>
+                    <li> <a class="menu" href="servicios.html"> Servicios</a> </li>
+                    <li><a class="menu" href="../../login.php">Clientes</a></li>
+                    <li><a class="menu active" href="ubicacion.html">Ubicaci&oacute;n</a></li>
+                </ul>
+                <div id="miCuenta">
+                    <i class="fas fa-user"></i>
+                    <span>
+                        <a href="../../login.php">Mi cuenta</a>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>   
+<!-- SECCION DONDE ESTAMOS -->
+    <section class="secciones" id="ubicacion">
+        <h1>Dónde estamos</h1>
+        <div id="mapa">
+          <iframe
+                id="mapa" 
+                src="https://maps.google.com/maps?q=Ayuntamiento+de+Valencia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0">
+          </iframe>
+          <h3>Direcci&oacute;n:</h3>
+        <p>Plaza del Ayuntamiento, 1, 46002 València, Valencia</p>
+        </div>
+
+    </section>
+    <footer>
+        <div id="section_pie">
+            <div id="column1" class="columns">
+                <img src="../inicio/img/logo_pie_182x50.png" alt="logo_empresa">
+                <div>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, voluptatum. Quasi omnis dolor earum sapiente facere voluptatem esse dolores illum.
+                    </p>
+                    <span>
+                        <i class="fab fa-facebook f"></i>
+                        <i class="fab fa-facebook-messenger"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                    </span>
+
+                </div>
+            </div>
+            <div id="column2" class="columns">
+                <h4>Enlaces ùtiles</h4>
+                <ul>
+                    <li>
+                        <a href="#">Sobre nosotros</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">Localización</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div id="column3" class="columns">
+                <h4>Categorias</h4>
+                <ul>
+                    <li>
+                        <a href="#">Aplicaciones personalizadas</a>
+                    </li>
+                    <li>
+                        <a href="#">Tienda online </a>
+                    </li>
+                    <li>
+                        <a href="#">Diseños web</a>
+                    </li>
+                    <li>
+                        <a href="#">Gestión administrativa BBDD</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="column4" class="columns">
+                <h4>Información contacto</h4>
+                <ul class="fa-ul">
+                    <li>
+                        <span class="fa-li">
+                            <i class="fab fa-periscope fa-lg" style="color: #202060;"></i>
+                        </span>
+                        Plaza del Ayuntamiento, <br />
+                        1, 46002 València
+                    </li>
+                    <li>
+                        <span class="fa-li">
+                            <i class="fab fa-whatsapp " style="color: #202060;"></i>
+                        </span>
+                        +34 666 99 55 23
+                    </li>
+                    <li>
+                        <span class="fa-li">
+                            <i class="fas fa-envelope" style="color: #202060;"></i>
+                        </span>
+                        pages@pages.com
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="section_pie_footer">
+            <p>
+                &copy; copyright 2020 - <a href="../../inicio2.php">Pages.com</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

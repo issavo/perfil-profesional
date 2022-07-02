@@ -24,15 +24,12 @@
     <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
     <script src="../js/jquery.gomap-1.3.2.min.js"></script>
     <script>
-    /* funcion jquery animate() puede recibir 3 argumentos:
-        -{"propiedad" : "valor"},
-        -tiempo en mmsg,
-        -function(){ anonima }*/
         $(document).ready(function(){
     //ocultar texto
             $("#slider_text").hide().fadeToggle(5000);
-//$("#slider_text").fadeToggle(1000);//mostrar texto
+
     //animacion de la imagen (cometa) al cargar la pagina
+
             $("#slider_img").fadeIn(5000).animate({//desplazamiento cometa
                     marginLeft: "+=1600px"
                     
@@ -40,7 +37,6 @@
             $("#slider_img").animate({
                    marginLeft: "50px"
                   }, 100);//termina animate
-// $("#slider_text").fadeIn(500); 
 
      // plano ubicacion google maps
             //apuntar la zona en la que se muestra el mapa
@@ -184,7 +180,5 @@
     </footer>
    
 </body>
-
-<html>
 
 </html>

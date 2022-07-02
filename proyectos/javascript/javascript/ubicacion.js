@@ -45,9 +45,6 @@ if (navigator.geolocation) {
           'Imágenes © <a href="https://www.mapbox.com/">Mapbox</a>',
         id: "mapbox/streets-v11",
       }).addTo(map);
-      //creamos marcador
-      // var marcador = L.marker([39.470038, - 0.377209]).addTo(map)
-      //     L.marker([39.470038, - 0.377209], {draggable: true}).addTo(map).bindPopup("Empresa: <b>Pages</b><br/>Desarrollo de páginas webs<br/>c/La Marina,33<br/>");
 
       //calcular ruta con el metodo routing machine
       L.Routing.control({

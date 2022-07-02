@@ -1,7 +1,4 @@
 
-
-
-
 $(document).ready(function () {
   /********mostrar texto inicio******************/
 
@@ -63,16 +60,4 @@ $(document).ready(function () {
           $("#ubicacion").html(data);
         },
       });
-
-  // /******* Fijar el mapa ********/
-  //obtener la distancia del menu a la seccion
-  // var altura = $("footer").offset().top;
-  // alert(altura);//son 1043.03125px
-  // $(window).on("scroll", function () {
-  //   if ($(window).scrollTop() > altura) {
-  //     $("#ubicacion").addClass(".mapa_fijo");
-  //   } else {
-  //     $("#ubicacion").removeClass(".mapa_fijo");
-  //   }
-  // });
 }); //termina ready

@@ -1,0 +1,54 @@
+PROYECTO PHP:
+A-archivos correspondientes a las vistas de tipo publico.
+    A1. pages: 
+        archivo que contiene las tablas de la base de datos.
+B-carpetas:
+1. ajax: 
+    contiene los archivos intermedios entre las clases y las vistas, estos envian informacion entre la base datos y las vistas.
+2. config:
+    contiene los archivos correspondientes a la clase Conexion con la base de datos, referentes a la sesion y la base de datos.
+3.models:
+    contiene las diferentes clases.
+4.public: 
+    contiene las diferentes librerias externas aplicadas en este proyecto.
+5. vistas: 
+    contiene los archivos con las diferentes vistas de cada módulo .
+    5.1 cliente:
+        contiene las diferentes vistas a las que se accedera segun el perfil de cliente.
+    5.2 inicio:
+        contiene los archivos correspondientes:
+            - a la libreria externa aplicada en el alta de usuario, 
+            - los archivos css para dar estilos a las paginas de acceso publico.
+            - las imagenes que se muestran en los archivos publicos correspondientes.
+            - los scripts correspondientes a la funcionalidad.
+    5.3 js: 
+        contiene los scripts js de cada modulo para ejecutar las funciones que realizan las diferentes llamadas ajax, separado por carpetas según el perfil del usuario, y envio de datos de los formularios.
+    5.4 login:
+            contiene los diferentes archivos que dan estilos y funcionalidad correspondientes al acceso y el alta de usuario. 
+    5.5 modal: 
+        contiene los modales que se muestran para realizar diferentes acciones, tanto el cliente como el administrador.
+    5.6 pags:
+        contiene los archivos html de acceso publico.
+    5.7  upLoad: 
+        contiene las imagenes almacenadas en la base de datos.
+    5.8 usuario:
+        contiene las diferentes vistas a las que se accedera segun el perfil de usuario.
+    . El resto de archivos corresponden a las diferentes vistas a las que podra acceder el administrador.
+C - ACCESOS:
+    1. administrador:
+        admin@admin.com
+        12345678
+    2. cliente: no puede modificar el estado de una cita, debe informar a la empresa.
+        soporte@pages.com
+        12345678
+    3. usuario:
+        info@pages.com
+        12345678
+NOTA: Para dar de alta un cliente, desde el perfil del administrador, primero hay que darlo de alta como usuario con el rol de cliente y despues como cliente.
+
+
+
+
+
+    
+

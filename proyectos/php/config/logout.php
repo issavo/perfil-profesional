@@ -1,0 +1,10 @@
+<?php
+    require_once("Conexion.php");
+    session_unset($_SESSION["usuario"]);
+    session_unset($_SESSION["id_usuario"]);
+    session_unset($_SESSION["rol"]);
+    session_unset($_SESSION["estado"]);
+    session_destroy();
+    header("Location:http://localhost/proyecto/login.php");
+    exit();
+?>

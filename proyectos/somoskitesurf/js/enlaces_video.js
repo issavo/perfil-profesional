@@ -25,7 +25,7 @@ function comenzar() {
     barra.addEventListener("click", evolucionando, false);
 }
 
-/************************************** Funcionalidad del botón ********************************************/
+/*********** Funcionalidad del botón *******/
 function pinchar() {
     //que reproduzca el vídeo
     if ((mivideo.paused == false) && (mivideo.ended == false)) {
@@ -44,7 +44,7 @@ function pinchar() {
 }
 
 
-/*****************************************  Barra de progreso del video **************************************/
+/**********  Barra de progreso del video *********/
 
 /*función que muestra el estado de la barra de progreso del video */
 function estado() {
@@ -60,7 +60,7 @@ function estado() {
 /* maximo, la variable que almacena el ancho total correspondiente a la barra */
 /* mivideo.duration, corresponde a la duración total del vídeo */
 
-/****************** Poder avanzar o retroceder el vídeo desde la barra de progreso ******************/
+/*** Poder avanzar o retroceder el vídeo desde la barra de progreso ****/
 
 /*Lo primero que necesito saber es en que punto de la pantalla se encuentra el ratón cuando hago click sobre la barra de progreso. Para ello existe:
     - la propiedad pageX -> que nos devuelve la posición del ratón en el eje X(eje horizontal al igual que la barra de progreso)

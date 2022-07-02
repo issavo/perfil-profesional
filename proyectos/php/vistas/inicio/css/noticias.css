@@ -1,0 +1,120 @@
+@font-face 
+{
+    font-family: 'Montserrat';
+    src: url(montserrat_[allfont.es].eot);
+}
+
+html,
+body
+{
+    margin: 0;
+    padding: 0;  
+    background:  #F4F4F4;
+}
+
+/* SECTION SERVICIOS  */
+#section_noticias
+{
+    /* border: 1px solid black; */
+    font-family: 'Montserrat';
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -12px;
+    margin-bottom: 30px;
+    padding: 15px 20px 30px 20px;
+    background:  #F4F4F4;
+    
+}
+#noticias
+{
+    background:  #F4F4F4; 
+}
+
+/* TITULO SECCION */
+
+#section_noticias h1
+{
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow:  rgba(173, 194, 197, .6) 2px 2px 3px;
+    letter-spacing: .5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background:  #F4F4F4;
+}
+
+#section_noticias .container
+{
+    /* border: 1px solid brown; */
+    width: 25%; /*para articles usar medidas absolutas */
+    height: auto; /* desplaza los otros divs, hacia abajo, al abrir la noticia*/
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top; /* se colocan en vertical*/
+    margin-left: 50px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    background:  #F4F4F4;
+
+}
+
+#section_noticias > div.container > div > h4
+{
+   font-family: Helvetica; 
+   font-size: 18px;
+   font-style: italic;
+   text-align: center;
+   margin-top: 40px;
+   margin-bottom: 10px;
+   padding: 2px;
+
+}
+
+#section_noticias > div.container > div > p
+{
+    font-family: Helvetica;
+    font-size: 13.5px;
+    font-weight: 200;
+    line-height: 17px;
+    width: 250px;
+    padding-left: 70px;
+    /* border: 1px solid brown; */
+}
+
+/* listas noticias breve */
+ul
+{
+    list-style: none;
+    padding-left: 0px;
+}
+
+ul > li
+{
+    text-decoration: none; 
+    padding:0px;
+}
+
+
+/* tablas */
+table
+{
+    border: none; 
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+footer
+{
+    background:  #F4F4F4;
+}
+
+#caja1,#caja2,#caja3,#caja4,#caja5
+{
+    width: 30%;
+    height: 700px;
+}

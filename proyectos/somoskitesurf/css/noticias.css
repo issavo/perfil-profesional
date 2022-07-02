@@ -1,11 +1,9 @@
 
-@font-face 
-{
+@font-face {
     font-family: 'Montserrat', sans-serif;
     src: url(../docs/montserrat_[allfont.es].eot);
 }
-body 
-{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat';
@@ -18,18 +16,13 @@ body
 
 /* CSS MENÚ DESLIZANTE */
 
-#content_nav
-{
+#content_nav {
     border: 1 px solid greenyellow;
     margin-left: 250px;
     margin-right: auto;
 }
 
-#menu
-{
-    /* border: 2px solid brown; */
-    /* margin-top: 30px;
-    margin-left: 100px; */
+#menu {
     font-size: 18px;
     text-transform: uppercase;
     text-align: center;
@@ -40,35 +33,28 @@ body
     width: 132px;
 }
 
-#menu #barra
-{
+#menu #barra {
     border: 1px solid #004d99;
     width: 155px;
     position: absolute;
     float: right;
     padding-left: 0px;
-    /* padding-right: 5px; */
     list-style: none;
     top: 15px;
     left: 0x; 
 }
 
-#menu li 
-{
-    /* border: 1px solid green; */
+#menu li {
     border-top: 0.5px solid  #004d99;
     border-bottom: 0.5px solid  #004d99;
     background-color: rgb(223, 235, 253);
     border-collapse: collapse;
-	/* display: inline-block; */
-    /* margin-right: 30px; */
     padding: 5px 10px;
     margin: 0px;
     text-align: center; 
 }
-#menu li a 
-{
-    /* border: 1px solid navy; */
+
+#menu li a {
 	padding: 5px 12px; 
 	background-color: rgb(223, 235, 253);
 	color: #004d99;
@@ -79,9 +65,9 @@ body
     width: 130px;
     cursor: pointer;
 }
+
 #menu li a:hover, 
-#menu li:hover 
-{
+#menu li:hover {
 	background-color: rgb(223, 235, 253);
     color: #004d99;
     font-weight: bolder;
@@ -102,17 +88,13 @@ body
     padding: 7px;
     text-transform: uppercase;
     cursor: pointer;
-    /* margin-left:-20px; */
 }
-#menu{
+#menu {
     width: 70px;
-    /* background-color: rgb(110, 138, 195); */
-    /* padding: 20px 20px 0 20px;*/
     position: absolute;
     left: -140px;
     z-index: 100;
 } 
-
 
 #contenidos_externos #noticia 
 {
@@ -120,8 +102,6 @@ body
 	padding: 20px;
 	border: 1px solid white;	
 }
-
-
 
 #noticias_externas
 {
@@ -139,8 +119,7 @@ body
 
 /* SECCION NOTICIAS */
 
-.seccion
-{
+.seccion {
     position: relative;
     display: block;
     margin: auto;
@@ -148,8 +127,7 @@ body
    
 }
 
-h2
-{
+h2 {
     font-family: 'Montserrat';
     text-align: left;
     font-weight: bolder;
@@ -159,24 +137,23 @@ h2
 }
 
 /* NOTICIA1 */
-.articulo_1
-{
+.articulo_1 {
     margin-top: 100px;
 }
-.noticia1
-{
+
+.noticia1 {
     position: relative; 
     margin: 0;
     width: 100%;
 }
-.noticia1__titulo
-{
+
+.noticia1__titulo {
     padding-top: 25px;
     margin-bottom: 0;
     margin-left: 3em;
 }
-.noticia1 p  
-{
+
+.noticia1 p {
     position: absolute;
     display: inline-block;
     font-family: 'Montserrat';
@@ -186,8 +163,7 @@ h2
     width: 67%;   
 }
 
-.noticia1__img
-{
+.noticia1__img {
     position: relative;
     display: inline;
     margin: 2% 2% 1% 5%;
@@ -197,23 +173,20 @@ h2
 /* NOTICIA2 */
 
 .noticia2__titulo, 
-.noticia3__titulo 
-{
+.noticia3__titulo {
     margin: 2% 0 0 3em;
 }
-.noticia2 p 
-{
+
+.noticia2 p {
     position: relative;
     font-family: 'Montserrat';
     text-align: justify;
     width: 91%;
     margin-left: 5%;
     margin-bottom: 0;
-
 }
 
-.noticia2 img 
-{
+.noticia2 img {
     margin-left: 350px;
     margin-right: auto;
     margin-bottom: 20px;
@@ -224,8 +197,7 @@ h2
 }
 
 /* NOTICIA3 */
-#noticia3_text
-{
+#noticia3_text {
     margin-top: 40px;
     margin-left: 5%;
     margin-right: 50px;
@@ -233,14 +205,6 @@ h2
     width: 800px;
     float: left;
 }
-
-/* #noticia3_video
-{
-    margin-top: 0px;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    width: 800px;
-} */
 
 #noticia3_video {
     margin-top: 45px;

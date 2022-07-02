@@ -1,0 +1,183 @@
+@font-face 
+{
+    font-family: 'Montserrat';
+    src: url(montserrat_[allfont.es].eot);
+}
+*
+{
+    box-sizing: border-box;
+}
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Para un menu en position: fixed =>  
+    - el contendor del nav en position:fixed y con top, left, bottom y right para desplazarlo
+Esto es debido a que position: fixed siempre se posiciona relativo a la ventana
+*/
+
+.header
+{
+    background: transparent;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    transition: all ease 0.5s; 
+}
+
+
+#contenedor_encabezado
+{   
+    top: -5px;
+    position: fixed; 
+    background: #3c8dbc; 
+    width: 100%;
+    /* right: 16.85px; */
+    z-index: 2;
+
+}
+/* LOGO MENU */
+
+#contenedor_encabezado > a > img
+/* #logo */
+{
+    float: left;
+    width: 65px;
+    vertical-align: top;
+    margin: 0 0 0 100px;
+    cursor: pointer;
+}
+
+/* efecto imagen logo */
+#contenedor_encabezado > a:hover > img
+{
+    width: 63px;
+    transition: all 0.3s ease-in-out;
+}
+
+#contenedor_encabezado > #boton
+{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background: transparent;
+    color: white;
+    float: left;
+    vertical-align: top;
+    margin-left: 0;
+    margin-top: 8px; 
+    padding: 15px; 
+    cursor: pointer;  
+}
+/* efecto imagen logo */
+
+#contenedor_encabezado > #boton:hover
+{
+    color: #202060;
+    transition: ease 1s;
+}
+
+/* MENU */
+#contenedor_encabezado #menu_nav
+ {
+    margin-left: inherit;
+ }
+
+ #contenedor_encabezado #menu_nav
+{
+    font-weight: 600;
+    vertical-align: top;
+    margin-top: 15px;/* modificar añadir imagen cuenta*/
+    margin-left: 210px;
+    margin-right: auto;
+    float: left;
+} 
+    
+
+#contenedor_encabezado > ul
+{
+    display: inline-block;
+    margin-bottom: 0px;
+    overflow: hidden;
+   
+
+}
+#contenedor_encabezado > ul > li
+{ 
+    /* border: 1px solid rgb(195,151,51); */
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px 16px 10px 10px ; 
+    background-color: transparent; 
+}
+
+nav ul li a
+{
+  font-family: Helvetica;
+  font-weight: bolder;
+  list-style: none;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  color: white;
+  padding: 7px 10px 0px 5px; 
+  line-height: 0;
+  font-size: 17px;
+  
+}
+nav ul li a:hover
+{
+    font-family: Helvetica;
+    font-weight: bolder;
+    text-decoration: none !important;
+    color: #202060;
+    background: transparent;
+    transition: 3s;
+    
+}
+/*Color link, del menu, activo*/
+#contenedor_encabezado a.active
+{
+    color:#202060 !important;
+    text-decoration: none !important;
+}
+
+#miCuenta > i
+{
+   vertical-align: top;
+    font-size: 19px;
+    color: white;
+    width: 25px;
+    margin-top: 27px;
+    margin-left: 150px;
+}
+
+#miCuenta > span
+{
+    font-size: 18px;
+    font-family: Helvetica ;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    margin-top: 28px;
+    left: 0px;
+    padding-left: 0px;
+    display: inline-block;
+
+}
+#miCuenta > span > a
+{
+    text-decoration: none;
+    color: white;
+}
+#miCuenta > span > a:hover
+{
+    
+    text-decoration: none !important;
+    color: #202060;
+    background: transparent;
+    transition: all ease 2s;
+    letter-spacing: 0px;
+}
+

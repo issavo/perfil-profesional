@@ -1,16 +1,11 @@
-html, body
-{
+html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    /* background: #f3e2c7; */
- 
 }
 
 /* FOOTER */
-footer
-{
-    /* border: 1px solid greenyellow; */
+footer {
     font-family: Helvetica;
     background-image: url(../img/body_web_1900x600.png);
     background-position: left;
@@ -21,15 +16,13 @@ footer
 /* ESTILOS GENERALES LISTAS*/
 
 footer > #section_pie > div.columns > ul,
-footer > #section_pie > div.columns > div > ul
-{
+footer > #section_pie > div.columns > div > ul {
     list-style: none;
     padding-left: 40px;
 }
 
 /* ESTILOS GENERALES ENLACES*/
-footer > #section_pie > div.columns > ul > li > a
-{
+footer > #section_pie > div.columns > ul > li > a {
     font-family: Helvetica;
     font-size: 14px;
     font-weight: 500;
@@ -39,8 +32,7 @@ footer > #section_pie > div.columns > ul > li > a
     cursor: pointer;
 }
 
-footer > #section_pie_footer > p > a
-{
+footer > #section_pie_footer > p > a {
     font-family: Helvetica;
     font-size: 12px;
     font-weight: 500;
@@ -50,8 +42,7 @@ footer > #section_pie_footer > p > a
     cursor: pointer;
     padding: 5px;
 }
-footer > #section_pie > div.columns > ul > li > a:hover
-{
+footer > #section_pie > div.columns > ul > li > a:hover {
     color: #663300;
     font-size: 13px;
     font-weight: 600;
@@ -59,8 +50,7 @@ footer > #section_pie > div.columns > ul > li > a:hover
     transition: all .3s ease-in-out;
 
 }
-footer > #section_pie_footer > p > a:hover
-{
+footer > #section_pie_footer > p > a:hover {
     color: #663300;
     font-size: 11px;
     font-weight: 600;
@@ -68,23 +58,19 @@ footer > #section_pie_footer > p > a:hover
     transition: all .3s ease-in-out;
 }
 
-footer > #section_pie > div.columns > ul > li
-{
+footer > #section_pie > div.columns > ul > li {
     padding: 5px;
 }
 
 /* SECTION */
-footer > #section_pie
-{
-    /* border: 1px solid black; */
+footer > #section_pie {
     width: 100%;
     overflow: hidden;
     font-family: 'Montserrat';
 }
+
 /* DIVS CLASS COLUMNS */
-.columns
-{
-    /* border: 1px solid brown; */
+.columns {
     width: 20%; /*para articles usar medidas absolutas */
     height: 200px;
     margin: 20px;
@@ -97,8 +83,7 @@ footer > #section_pie
 }
 
 /* ENCABEZADOS SECCIONES */
-footer > #section_pie > div.columns > h4
-{
+footer > #section_pie > div.columns > h4 {
     margin-left: 30px;
     margin-right: auto;
     margin-top: 10px;
@@ -108,30 +93,29 @@ footer > #section_pie > div.columns > h4
     text-align: inherit;
 }
 /* COLUMN1 */
-footer > #section_pie > div#column1
-{
+footer > #section_pie > div#column1 {
     font-family: Helvetica;
     font-size: 12px;
     width: 15%;
 }
-footer > #section_pie > div#column1 > img
-{
+
+footer > #section_pie > div#column1 > img {
     margin-left: 10px;
     margin-right: auto;
 }
-footer > #section_pie > div#column1 > div > p
-{
+
+footer > #section_pie > div#column1 > div > p {
     margin-left: 10px;
     margin-right: 10px;
     text-align: justify;
 }
-footer > #section_pie > div#column1 > div > span  
-{
+
+footer > #section_pie > div#column1 > div > span {
     margin-left: 40px;
     padding: 10px 20px 10px 10px;
 }
-footer > #section_pie > div#column1 > div > span > i
-{
+
+footer > #section_pie > div#column1 > div > span > i {
     padding: 10px;
     font-size: 16px;
     color: #663300;
@@ -139,24 +123,19 @@ footer > #section_pie > div#column1 > div > span > i
 
 /* COLUMN3 COLUMN2 */
 footer > #section_pie > div#column2 > ul,
-footer > #section_pie > div#column3 > ul
-{
+footer > #section_pie > div#column3 > ul {
     padding-left: 25px;
   
 
 }
 /* PIE SECTION  */
 footer > #section_pie_footer,
-footer
-{
+footer {
     border-top: 1px solid #f5ecdf;
     font-family: Helvetica;
 }
 
-footer > #section_pie_footer > p
-{
-    
-    /* border: 1px solid brown; */
+footer > #section_pie_footer > p {
     text-align: center;
     font-size: 9px;
 }

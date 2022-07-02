@@ -3,18 +3,6 @@
     font-family: 'Montserrat';
     src: url(./docs/montserrat_[allfont.es].eot);
 }
-/******************************************** RESET ************************/
-/* html, body, div, h1, h2, h3, h4, h5, h6
-/* , form, table, caption, tbody, tfoot, thead, tr, th, td */
-/* {
-    margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-} */
-/* termina reset*/
 
 html, body
 {
@@ -22,7 +10,6 @@ html, body
     background-position: left;
     background-size: cover;
     background-repeat: repeat-x; 
-    /* background-color: #f3e2c7; */
     line-height: 1;
     font-family: 'Montserrat';
 } 
@@ -30,9 +17,7 @@ html, body
 
 
 /**************************** SECCION CONTACTO ****************************/
-#content_contacto
-{
-    /* border: 1px solid black; */
+#content_contacto {
     width: 90%;
     min-width: 800px;
     overflow: hidden;
@@ -40,13 +25,10 @@ html, body
     margin-right: auto;
     margin-top: 30px; 
     padding-top: 15px;
-    /* background-color: #f3e2c7; */
 }
 
 
-#content_contacto h1
-{
-   
+#content_contacto h1 {
     font-family: 'Montserrat' !important;
     font-size: 35px;
     font-weight: bolder;
@@ -61,8 +43,7 @@ html, body
 
 /*** articles ***/
 
-.cajas
-{
+.cajas {
     font-family: 'Montserrat';
     font-size: 15px;
     letter-spacing: .5px;
@@ -72,26 +53,22 @@ html, body
     margin-top: 10px;
 }
 
-#content_form_contacto
-{
-    /* border: 1px solid green; */
+#content_form_contacto {
     width: 650px;
     display: inline-block;
     margin:30px 40px 30px 30px;
 
 }
 
-#content_info_contacto
-{
-    /* border: 1px solid brown; */
+#content_info_contacto {
+
     width: 390px;
     margin: 30px 30px 30px 220px;
     vertical-align: top;
 
 }
 
-.cajas h2
-{
+.cajas h2 {
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: 1.5em;
@@ -102,8 +79,7 @@ html, body
     margin-bottom: 30px;  
 }
 
-#content_form_contacto form
-{
+#content_form_contacto form {
     font-family: 'Montserrat';
     font-weight: bolder;
     width: 650px;
@@ -113,16 +89,14 @@ html, body
 
 }
 
-#formContacto > table > tbody > tr:nth-child(7) > td > input[type="date"]
 /* #fecha_contacto */
-{
+#formContacto > table > tbody > tr:nth-child(7) > td > input[type="date"] {
     text-decoration: none;
 }
 
 #formContacto input, 
 #formContacto textarea, 
-#fecha_contacto
-{
+#fecha_contacto {
     font-family: 'Montserrat';
     font-weight: 70;
     font-size: 18px;
@@ -131,34 +105,26 @@ html, body
     width: 400px;
     padding: 1.3em 2em;
     margin: 10px auto 10px 60px;
-    /* margin-bottom: 10px;
-    margin-left: 120px;
-    margin-right: auto; */
-
 }
-#formContacto textarea
-{
+
+#formContacto textarea {
     display: block;
     font-family: 'Montserrat';
     font-weight: normal;
     font-size: 18px;
 }
 
-#formContacto input:focus, #formContacto textarea:focus 
-{
-    /* border: 3px solid rgb(136, 69, 3); */
+#formContacto input:focus, #formContacto textarea:focus {
 	outline: none !important;
 	box-shadow: 5px 3px 30px  rgba(241, 197, 153, .4) !important;
 }
 
-#formContacto > table > tbody > tr:nth-child(11) > td > label
  /* td label */
-{
+#formContacto > table > tbody > tr:nth-child(11) > td > label {
     padding-left: 100px;
 }
 
-#content_info_contacto p
-{
+#content_info_contacto p {
     font-family: 'Montserrat';
     font-weight: normal;
     text-align: justify;
@@ -166,9 +132,8 @@ html, body
     padding: 7px;
 }
 
-#formContacto > table > tbody > tr:nth-child(13) > td > label
 /* label #texterminos */
-{
+#formContacto > table > tbody > tr:nth-child(13) > td > label {
     float: left;
     margin-top: 8px;
     padding-right:0 ;
@@ -176,71 +141,57 @@ html, body
     padding-left: 100px;
    
 } 
-#formContacto > table > tbody > tr:nth-child(13) > td  > input[type="radio"]
+
 /* td #terminos */
-{
+#formContacto > table > tbody > tr:nth-child(13) > td  > input[type="radio"] {
     margin-left: -190px;
-    float: right;
-    /* margin-top: 3px; */
-    
+    float: right;   
 } 
 
 #formContacto #boton_enviar, 
-#formContacto #boton_borrar
-{
+#formContacto #boton_borrar {
     font-family: 'Montserrat';
     font-weight: 600;
     width: 25%;
     padding: 5px;
     margin: 10px  0 0 110px ;
-    /* border: 1px solid rgba(102,51,0,1); */
 }
-#boton_enviar:focus
-{
+
+#boton_enviar:focus {
     border: 1px solid rgba(102,51,0,1);
-    /* background: rgb(228, 148, 68); */
     color: #663300;
     background: whitesmoke;
     transition: all 0.3s ease;
 }
 
-#boton_borrar:focus
-{
+#boton_borrar:focus {
     border: 1px solid rgba(102,51,0,1);
-    /* background: brown; */
     color: #663300;
     background: whitesmoke;
-    transition: all 0.3s ease;
-    
+    transition: all 0.3s ease;   
 }
 
 #boton_enviar:hover,
-#boton_borrar:hover
-{
+#boton_borrar:hover {
    transition: all 0.3s ease-in-out;
     padding: 0.1px;
     font-size: 12px; 
 }
+
 /* estilos validacion formulario */
-.ok
-{
-    /* border: 3px solid green ; */
+.ok {
     text-shadow: rgb(157, 238, 157) 2px 2px 3px;
     box-shadow: rgb(157, 238, 157)4px 4px 7px; 
-   
-
 }
-.error
-{
-    /* border: 1px solid brown; */
+
+.error {
     text-shadow: rgb(235, 167, 167) 2px 2px 3px;
       
 }
 
 
 /* .error1, .error2, .error3, .error4, .error5, .error6, .error7, .error8 */
-.errorInput
-{
+.errorInput {
    box-shadow: rgb(247, 166, 166) 3px 3px 5px;
    text-shadow: rgb(235, 167, 167) 2px 2px 3px; 
    border: 1px solid brown !important;
@@ -253,8 +204,7 @@ html, body
 #mensajeFecha, 
 #mensajeConsulta, 
 #mensajeMensaje, 
-#mensajeTerminos
-{
+#mensajeTerminos {
     color: brown;
     width: 410px;
     font-weight: bold;

@@ -263,7 +263,6 @@ function validarPlazo(){
       $("#mensajePresupuesto").focus();
       $("#mensajePresupuesto").removeClass("inputError");
       $("#mensajePresupuesto").removeClass("error");
-      // $("#mensajePresupuesto").addClass("ok");
       $("#mensajePresupuesto").show();
       $('#mensajePresupuesto').html('<p>El formulario ha sido enviado. Nos pondremos en contacto con usted lo antes posible</p>');
       $('p').hide();

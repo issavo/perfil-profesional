@@ -12,8 +12,7 @@ body {
 
 /* SECCIÓN IMG */
 
-.seccion
-{
+.seccion {
     position: relative;
     margin: 0px auto;
     overflow: hidden;
@@ -21,15 +20,11 @@ body {
 
 }
 
-.slider
-{
-    
-    width: 100%;
-    
+.slider{  
+    width: 100%;    
 }
 
-.slider img
-{
+.slider img {
     width: 100%; 
     height: 550px;
     margin-right: auto; 
@@ -45,10 +40,9 @@ h2 {
     
 }
 
-
 /* SECCIÓN BIENVENIDA */
 
-.bienvenida{
+.bienvenida {
     position: relative; 
     margin: 0;
     width: 100%;
@@ -62,13 +56,13 @@ h2 {
     margin-left: 2%;  
 }
 
-.bienvenida__img{
+.bienvenida__img {
     position: absolute;
     display: inline;
     margin: 5px 0px 30px 70px;
     left: 82%;
 } 
-.bienvenida__titulo{
+.bienvenida__titulo {
     margin-bottom: 0;
     margin-left: 2%;
 }
@@ -78,6 +72,7 @@ h2 {
 .datos__interes__titulo {
     margin: 2% 0 0 2%;
 }
+
 .datos__interes p {
     position: relative;
     font-family: 'Montserrat';

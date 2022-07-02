@@ -35,9 +35,6 @@ document.getElementById("btn").addEventListener("click", cargarRss, true);
             lista += noticias[i].getElementsByTagName("link")[0].textContent;
             lista += "</a>";
             lista += "</li>";
-            // tabla += "<li>";
-            // tabla += noticias[i].getElementsByTagName("description")[0].textContent;
-            // tabla += "</li>";
           }
 
           document.getElementById("enlaces_externos").innerHTML = lista;
