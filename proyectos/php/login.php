@@ -51,7 +51,7 @@ require_once("config/Conexion.php");
         <a id="boton">Pages</a>
         <ul id="menu_nav">
           <li> <a class="menu" href="inicio2.php"> Inicio</a></li>
-          <li> <a class="menu " href="vistas/pags/proyectos.php"> Proyectos</a></li>
+          <li> <a class="menu " href="proyectos.php"> Proyectos</a></li>
           <li><a class="menu" href="vistas/pags/portfolio.html">Porfolio</a></li>
           <li> <a class="menu" href="vistas/pags/servicios.html"> Servicios</a> </li>
           <li><a class="menu active" href="login.php">Clientes</a></li>

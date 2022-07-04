@@ -36,9 +36,8 @@ $objNot = new Noticias();
                     <li> <a class="menu" href="proyectos.php"> Proyectos</a></li>
                     <li> <a class="menu" href="vistas/pags/portfolio.html">Porfolio</a></li>
                     <li> <a class="menu" href="vistas/pags/servicios.html"> Servicios</a> </li>
-                    <li> <a class="menu" href="vistas/pags/contacto.html"> Contacto</a> </li>
                     <li> <a class="menu" href="login.php">Clientes</a></li>
-                    <li> <a class="menu" href="vistas/pags/ubicacion.html">Ubicaci&oacute;n</a></li>
+                    <li> <a class="menu" href="./vistas/pags/ubicacion.html">Ubicaci&oacute;n</a></li>
                 </ul>
                 <div id="miCuenta">
                     <i class="fas fa-user"></i>
@@ -49,7 +48,7 @@ $objNot = new Noticias();
             </div>
         </nav>
     </header>
-    <!---------  SECCIONES -------->
+    <!--------------------------------  SECCIONES ----------------------------------------------->
 
     <div id="contenedor_cuerpo" class="secciones">
 
@@ -65,7 +64,7 @@ $objNot = new Noticias();
             </div>
         </div>
     </div>
-    <!------ SECCION NOTICIAS ------->
+    <!----------------------------- SECCION NOTICIAS ----------------------------------------------------------->
     <!--Contenido-->
     <!--  Contains page content -->
     <!-- Main content -->

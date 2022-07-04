@@ -28,11 +28,10 @@
                 <ul id="menu_nav">
                     <li> <a class="menu " href="../../inicio2.php"> Inicio</a></li>
                     <li> <a class="menu " href="../../proyectos.php"> Proyectos</a></li>
-                    <li><a class="menu" href="../pages/portfolio.html">Porfolio</a></li>
-                    <li> <a class="menu" href="../pages/servicios.html"> Servicios</a> </li>
-                    <li> <a class="menu" href="vistas/pags/contacto.html"> Contacto</a> </li>
+                    <li><a class="menu" href="../pags/portfolio.html">Porfolio</a></li>
+                    <li> <a class="menu" href="../pags/servicios.html"> Servicios</a> </li>
                     <li><a class="menu active" href="../../login.php">Clientes</a></li>
-                    <li><a class="menu" href="../pages/ubicacion.html">Ubicaci&oacute;n</a></li>
+                    <li><a class="menu" href="../pags/ubicacion.html">Ubicaci&oacute;n</a></li>
                 </ul>
                 <div id="miCuenta">
                     <i class="fas fa-user"></i>
