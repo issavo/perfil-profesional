@@ -1,22 +1,31 @@
 # Portfolio
 
-Thriflora is a registration form to collect emails from potential customers who want to be the first to test the online shop. At the moment it is only shown in Spain, Italy and France.
+I have developed a web page with my curriculum, in which there is a link, projects, where some projects that I have done during my studies as a developer are shown.
 
 ## Content
 
 This project has one branch: master contains the repositorie of my curriculum as developer.
 
-## How to clone
+## Description
 
-- We can get the code from a repository by downloading a simple Zip. From the download button.
-- We can also clone the repository from a url:
-    - First you will copy the URL of the remote repository you want to clone (from the "clone" button). You have two options, with https.
-    - Second you will open a terminal window, to place yourself over the folder of your project that you want to clone.
-    - Third a folder with the name of the project you are cloning, or any other name you think is better for this repository.
-    - Fourth you place yourself inside that folder (cd, cd...) and from there you launch the command to make the clone:
-         git clone https://gitlab.com/sonia-orive/thriflora.git
+- I have developed my professional and academic profile.
+- Description of my work experience, projects in which I have intervened related to the support of softwear and I have worked as a developer of applications with web technologies. 
+- During my training I developed a project for each module that formed the course with different technologies such as:
+    - Html
+    - Css
+    - Javascript / JQuery / Json / Ajax
+    - Php
+    - MySql 
+    - Bootstrap
+- One of the modules corresponded to the administration of Web servers (Apache) carried out with: 
+    - Linux
+    - Ubuntu desktop and Ubuntu live server
+    - Virtualbox
+    - SSh client
+- My website url is:
+    https://desarrollador-portfolio.000webhostapp.com/index.html
+    
 
 
-## About the portfolio
 
-I have developed a web page with my curriculum, in which there is a link, projects, where some projects that I have done during my studies as a developer are shown.
+
